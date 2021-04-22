@@ -1,0 +1,52 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Feb 17 16:45:47 2021
+
+@author: Carrie
+"""
+
+Function to check if the database has updated: I should be able to check if 
+the number of search results has changed. 
+
+Download the csv file of targets associated with female infertility. 
+Need a threshold association score. For each target above the threshold, 
+check it against the protein atlas entry for expression in the ovary. 
+
+To check against the protein atlas entry, need:
+    -To be able to find the target in the protein atlas, Ensembl identifier
+    should be able to help with this
+    -Download or otherwise access the XML file for the target
+    -Parse the XML file to find the information on expression in the ovary
+        -RNA expression: need a threshold NX for when there's no protein data
+        -Protein expression: ideally, follicles. Need to figure out if 
+        "not detected" means they looked and didn't find it, or just that
+        they didn't look. How is "not dectected" different from no information
+        for that tissue type?
+    -Store the expression values associated with the target
+    -Use the information on expression in the ovary and the decided thresholds
+    to determine if this target meets our criteria
+    
+After checking against the protein atlas, we need to save that info somehow,
+then delete the XML file if we downloaded it, because that's going to be 
+too much info (I think I can do this without downloading the XML, but unsure).
+How much info to save? Probably ovary RNA and protein levels for each target,
+in addition to how much we like it. 
+
+Should end up with a list of targets that meet our criteria. Additionally, a 
+table/csv/spreadsheet of some sort with the protein and its levels. 
+
+---
+Need to figure out:
+
+Does the protein atlas update? 
+
+How to handle missing data - script needs to be able to deal with no data
+for a particular target.
+
+For checking whether the database has updated, how to handle storage of past
+info/results? Like to check if the number of search results has changed,
+will need to know what the number was the last time we checked. So do we 
+save that number? Or just count from the CSV we downloaded last time? Do we 
+keep that CSV around? What do we do if its the first time we run the check?  
+
+
