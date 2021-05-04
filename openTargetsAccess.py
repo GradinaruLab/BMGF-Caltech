@@ -11,7 +11,8 @@ import csv
 import ContraceptiveConstants as cc
 
 
-test_csv = "targets_associated_with_female_infertility.csv"
+full_csv = "targets_associated_with_female_infertility.csv"
+test_csv = "test_targets.csv"
 
 def data_from_csv(csv_str, ens_ID = cc.ENSID_KEY, 
                   ASO = cc.ASO_KEY, GN = cc.GN_KEY):

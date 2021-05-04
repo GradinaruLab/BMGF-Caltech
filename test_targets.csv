@@ -1,0 +1,12 @@
+﻿target.gene_info.symbol,target.id,association_score.overall,association_score.datatypes.genetic_association,association_score.datatypes.somatic_mutation,association_score.datatypes.known_drug,association_score.datatypes.affected_pathway,association_score.datatypes.rna_expression,association_score.datatypes.literature,association_score.datatypes.animal_model,target.gene_info.name
+BBS4,ENSG00000140463,1,1,0,0,0,0,0.07037478,0.326710073,Bardet-Biedl syndrome 4
+BBS1,ENSG00000174483,1,1,0,0,0,0,0.06913184,0.324188505,Bardet-Biedl syndrome 1
+NR0B1,ENSG00000169297,1,1,0,0,0,0,0.075219807,0.318143704,nuclear receptor subfamily 0 group B member 1
+FSHR,ENSG00000170820,1,1,0,1,0,0,0.061648531,0.326547795,follicle stimulating hormone receptor
+NR5A1,ENSG00000136931,1,1,0,0,0,0,0.066345916,0.323110207,nuclear receptor subfamily 5 group A member 1
+BBS7,ENSG00000138686,1,1,0,0,0,0,0.065207039,0.320233895,Bardet-Biedl syndrome 7
+FGFR1,ENSG00000077782,1,1,0,0,0,0,0.077165289,0.303335216,fibroblast growth factor receptor 1
+MAGEL2,ENSG00000254585,1,1,0,0,0,0,0.051701228,0.320261206,MAGE family member L2
+GALT,ENSG00000213930,1,1,0,0,0,0,0.068263181,0,galactose-1-phosphate uridylyltransferase
+BBS5,ENSG00000163093,1,1,0,0,0,0,0.054548915,0,Bardet-Biedl syndrome 5
+FOXL2,ENSG00000183770,1,1,0,0,0,0,0.045169525,0.297979556,forkhead box L2

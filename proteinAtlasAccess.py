@@ -8,6 +8,7 @@ Protein Atlas Access
 """
 import requests
 from bs4 import BeautifulSoup
+import ContraceptiveConstants as cc
 
 test_ID = "ENSG00000178394" #ID for the protein HTR1A
 #this protein is expressed in the ovaries, with both protein and RNA evidence
@@ -22,7 +23,7 @@ def get_protein_xml(ensID):
 
     Returns
     -------
-    paResp : requests.models.Response
+    paXML : bs4.BeautifulSoup
         the XML file from the Protein Atlas for the gene of interest in the
         for of a Response object. 
     """
@@ -31,14 +32,16 @@ def get_protein_xml(ensID):
     paURL = "https://www.proteinatlas.org/" + ensID + ".xml"
     #print(paURL)
     paResp = requests.get(paURL)
+    paXML = BeautifulSoup(paResp.content, 'lxml-xml', 
+                                    from_encoding = 'utf-8')
     #print(paResp.content)
     #paSoup = BeautifulSoup(paResp.content, 'lxml-xml', from_encoding = 'utf-8')
     #pretty = paSoup.prettify()
     #print(pretty[:1000])
-    return paResp
+    return paXML
 
 
-def get_RNA_tissue_data(paResponse):
+def get_RNA_tissue_data(paXML):
     """parses the protein xml file to retrieve ovary-specific 
     RNA expresssion data.
     
@@ -48,9 +51,9 @@ def get_RNA_tissue_data(paResponse):
 
     Parameters
     ----------
-    paResponse : requests.models.Response
-        The response object received from proteinatlas.org.
-        Contains the atlas' xml file for a target protein. 
+    paResponse : bs4.BeautifulSoup
+        A beautiful soup of the xml content of the 
+        response object received from proteinatlas.org.
 
     Returns
     -------
@@ -60,9 +63,8 @@ def get_RNA_tissue_data(paResponse):
     #<tissue organ="Female tissues" ontologyTerms="UBERON:0000992">
     #Ovary</tissue>
     normRNAExp = None
-    paSoup = BeautifulSoup(paResponse.content, 'lxml-xml', 
-                                    from_encoding = 'utf-8')
-    ovaryTissues = paSoup.find_all(ontologyTerms="UBERON:0000992")
+    
+    ovaryTissues = paXML.find_all(ontologyTerms="UBERON:0000992")
     #finds all the tissue tags with the ontologyTerms attribute for ovary
     allSiblings = []
     for tag in ovaryTissues:
@@ -90,6 +92,43 @@ def get_RNA_tissue_data(paResponse):
 # that have ontologyTerms="UBERON:0000992" then check through siblings
 # to find <level type="normalizedRNAExpression" unitRNA="NX" expRNA="10.4">
 # for example
+
+def get_protein_exp_data(paXML):
+    """
+    parses the xml file for a target protein to retrieve protein expression
+    data from ovarian tissues. 
+    
+    Ovarian tissue types:
+        -Follicle cells
+        -Ovarian stroma cells
+        -#TODO
+
+    Parameters
+    ----------
+    paXML : bs4.BeautifulSoup
+        
+        A beautiful soup of the xml content of the 
+        response object received from proteinatlas.org.
+
+    Returns
+    -------
+    expDict : dict
+    
+        A dictionary containing the protein expression levels for each of 
+        the selected tissue types
+        
+    """
+    #### PLAN ####
+    
+    # dictionary for levels
+    # what are dictionary keys? names of specific ovarian tissue
+    #    put in constants
+    # search tags as in RNA expression
+    # how to do this efficiently? want to look for all tissue types in one 
+    #    search through the tree if possible
+    # some trees won't have various tissue types
+    #    give those a value of "na" - maybe make this a constant?
+    #    "na" is different from "not detected" which is a provided value
 
 def test_run():
     paR = get_protein_xml(test_ID)

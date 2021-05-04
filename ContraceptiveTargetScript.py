@@ -12,7 +12,7 @@ import csv
 
 
 
-def compare_targets():
+def compare_targets(csv_str):
     """
     Given a csv from Open Targets, generates a list containing one dictionary
     for each target. The dictionary keys are provided in 
@@ -21,6 +21,13 @@ def compare_targets():
         -the gene name
         -the overall association score from Open Targets
         -the RNA tissue data from the Human Protein Atlas
+        
+    Parameters
+    ----------
+    csv_str : str
+    
+        a string that is the name of the csv file of targets. Currently only
+        csvs from Open Targets are supported. 
 
     Returns
     -------
@@ -31,12 +38,12 @@ def compare_targets():
         ensembl ID, and overall association score from Open Targets
 
     """
-    target_list = ota.data_from_csv(cc.CSV_NAME)
+    target_list = ota.data_from_csv(csv_str)
     #counter = 0 #debugging
     for target_dict in target_list:
         target_ID = target_dict[cc.ENSID_KEY]
-        paResponse = paa.get_protein_xml(target_ID)
-        norm_RNA_exp = paa.get_RNA_tissue_data(paResponse)
+        paXML = paa.get_protein_xml(target_ID)
+        norm_RNA_exp = paa.get_RNA_tissue_data(paXML)
         target_dict[cc.RNA_EXP_KEY] = norm_RNA_exp
         #print(counter) #so I can see that it's actually running
         #print(target_dict[cc.GN_KEY])
@@ -83,5 +90,5 @@ def script_wrapper():
     None.
 
     """
-    target_list = compare_targets()
+    target_list = compare_targets(cc.TEST_CSV)
     write_target_csv(target_list)
