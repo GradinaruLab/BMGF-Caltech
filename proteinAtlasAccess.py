@@ -172,7 +172,8 @@ def get_protein_exp_data(paXML, tissueResults, tissueTypes = cc.OVARY_TYPES):
                     cellTag = s.find("cellType")
                     if cellTag.get_text() == tissue:
                         levelTag = cellTag.find_next_sibling("level")
-                        expDict[tissue] = levelTag.getText()
+                        tissue_exp = levelTag.getText()
+            expDict[tissue] = tissue_exp
 
     
     return expDict
@@ -190,17 +191,17 @@ def get_protein_exp_data(paXML, tissueResults, tissueTypes = cc.OVARY_TYPES):
     #    "na" is different from "not detected" which is a provided value
 
 def test_run():
-    #start = time.perf_counter()
-    #paXML = get_protein_xml(cc.TEST_NEG_ID)
-    #tissues = get_ovary_tags(paXML)
+    start = time.perf_counter()
+    paXML = get_protein_xml(cc.TEST_PART_ID)
+    tissues = get_ovary_tags(paXML)
     
-    #exp_dict = get_protein_exp_data(paXML, tissues)
-    #stop = time.perf_counter()
+    exp_dict = get_protein_exp_data(paXML, tissues)
+    stop = time.perf_counter()
     
 
-    #print(stop - start)
+    print(stop - start)
     
-    #return exp_dict
+    return exp_dict
     
     
     

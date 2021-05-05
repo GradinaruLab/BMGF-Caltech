@@ -12,6 +12,8 @@ TEST_ID = "ENSG00000178394" #ID for the protein HTR1A
 #this protein is expressed in the ovaries, with both protein and RNA evidence
 TEST_NEG_ID = "ENSG00000173714" #WFIKKN2 which has no expression data in any
 #ovarian tissue
+TEST_PART_ID = "ENSG00000163093" #BBS5 which has expression data in stroma
+#but not in follicles
 
 #keys for the dictionaries in the list of targets
 ENSID_KEY = "ensembl ID"

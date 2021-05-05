@@ -9,6 +9,7 @@ import openTargetsAccess as ota
 import ContraceptiveConstants as cc
 from datetime import date
 import csv
+import time
 
 
 
@@ -21,6 +22,7 @@ def compare_targets(csv_str):
         -the gene name
         -the overall association score from Open Targets
         -the RNA tissue data from the Human Protein Atlas
+        -the protein tissue data from the Human Protein Atlas
         
     Parameters
     ----------
@@ -33,22 +35,28 @@ def compare_targets(csv_str):
     -------
     target_list : List
     
-        A list of dictionaries containing the RNA tissue data from 
-        the Human Protein Atlas; in addition the gene name, 
+        A list of dictionaries containing the RNA and protein tissue data 
+        from the Human Protein Atlas; in addition the gene name, 
         ensembl ID, and overall association score from Open Targets
 
     """
+    counter = 0 #so I can see that it's working
     target_list = ota.data_from_csv(csv_str)
-    #counter = 0 #debugging
     for target_dict in target_list:
+        #Setup
         target_ID = target_dict[cc.ENSID_KEY]
         paXML = paa.get_protein_xml(target_ID)
         ovaryTissues = paa.get_ovary_tags(paXML)
+        #RNA Expression
         norm_RNA_exp = paa.get_RNA_tissue_data(paXML, ovaryTissues)
         target_dict[cc.RNA_EXP_KEY] = norm_RNA_exp
-        #print(counter) #so I can see that it's actually running
-        #print(target_dict[cc.GN_KEY])
-        #counter += 1 #debugging
+        #Protein Expression
+        protein_dict = paa.get_protein_exp_data(paXML, ovaryTissues)
+        target_dict.update(protein_dict) #adds all entries in protein_dict
+        #debug
+        print(counter)
+        counter += 1
+        print(target_dict[cc.GN_KEY])
     return target_list
 
 def write_target_csv(target_list):
@@ -71,9 +79,9 @@ def write_target_csv(target_list):
     today = date.today()
     today_str = today.strftime("%b-%d-%Y")
     out_csv_name = "target_list_" + today_str + ".csv"
+    fieldnames = list(target_list[0].keys())
     
     with open(out_csv_name, 'w', newline = '') as csv_file:
-        fieldnames = [cc.GN_KEY, cc.ENSID_KEY, cc.ASO_KEY, cc.RNA_EXP_KEY]
         writer = csv.DictWriter(csv_file, fieldnames = fieldnames, \
                                 dialect = 'excel')
         writer.writeheader()
@@ -91,8 +99,14 @@ def script_wrapper():
     None.
 
     """
-    target_list = compare_targets(cc.TEST_CSV)
+    start = time.perf_counter() #timing
+    
+    target_list = compare_targets(cc.CSV_NAME)
     write_target_csv(target_list)
+    
+    stop = time.perf_counter()
+    print("time for full run on open targets csv:")
+    print(stop - start)
     
 def test_run():
     target_list = compare_targets(cc.TEST_CSV)
