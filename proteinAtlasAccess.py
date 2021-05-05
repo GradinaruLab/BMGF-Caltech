@@ -9,7 +9,7 @@ Protein Atlas Access
 import requests
 from bs4 import BeautifulSoup
 import ContraceptiveConstants as cc
-
+import time #for debugging
 test_ID = "ENSG00000178394" #ID for the protein HTR1A
 #this protein is expressed in the ovaries, with both protein and RNA evidence
 
@@ -30,96 +30,155 @@ def get_protein_xml(ensID):
     #step 1, use ensID to generate the protein atlas URL
     #https://www.proteinatlas.org/ENSG00000178394.xml
     paURL = "https://www.proteinatlas.org/" + ensID + ".xml"
-    #print(paURL)
-    paResp = requests.get(paURL)
+    paResp = requests.get(paURL) #about 1.1 seconds
     paXML = BeautifulSoup(paResp.content, 'lxml-xml', 
                                     from_encoding = 'utf-8')
-    #print(paResp.content)
-    #paSoup = BeautifulSoup(paResp.content, 'lxml-xml', from_encoding = 'utf-8')
-    #pretty = paSoup.prettify()
-    #print(pretty[:1000])
+    #about 0.4 seconds
     return paXML
 
 
-def get_RNA_tissue_data(paXML):
-    """parses the protein xml file to retrieve ovary-specific 
-    RNA expresssion data.
+def get_ovary_tags(paXML, ont_ID = cc.OVARY_ONT_ID):
+    """
+    gets the tissue tags for a given organ from the beautiful soup of a 
+    protein atlas XML file, e.g.
     
-    Currently this function is written to only work for ovarian tissue.
-    Once I have a better idea what I need, I might expand it to work for
-    generic tissue types (and therefor take another argument)
+    <tissue organ="Female tissues" ontologyTerms="UBERON:0000992">Ovary
+                                                                    </tissue>
+    Parameters
+    ----------
+    paXML : bs4.BeautifulSoup
+        A beautiful soup of the xml content of the 
+        response object received from proteinatlas.org.
+        
+    ont_ID : str
+        the identifier used by the ontology terms tag for the tissue of
+        interest in the paXML. Defaults to the tag for ovary
+
+    Returns
+    -------
+    ovaryTissues : bs4.element.ResultSet
+        
+        the tags in the tree with ovary tissue tags
+    """
+    ovaryTissues = paXML.find_all(ontologyTerms=ont_ID)
+    return ovaryTissues
+
+def find_specific_siblings(tissueResults, sibName):
+    """searches for all the siblings of the tags in tissueResults that have
+    the name sibName, and returns a list of lists of each tag's siblings
+    
 
     Parameters
     ----------
-    paResponse : bs4.BeautifulSoup
+    tissueResults : bs4.element.ResultSet
+        a set of tags from the XML file for a specific tissue
+        
+    sibName : str
+        the name of the tags we're looking for in the siblings
+
+    Returns
+    -------
+    allSiblings : list
+        a list of lists of tags. Each inner list contains all matching 
+        siblings for a tag in tissueResults
+
+    """
+    
+    allSiblings = []
+    for tag in tissueResults:
+        prevL = tag.find_previous_siblings(sibName)
+        nextL = tag.find_next_siblings(sibName)
+        siblings = prevL + nextL
+        if siblings != []:
+            allSiblings.append(siblings) #this is a list of lists of tags
+    
+    return allSiblings
+    
+    
+def get_RNA_tissue_data(paXML, tissueResults):
+    """parses the protein xml file to retrieve tissue-specific 
+    RNA expresssion data.    
+
+    Parameters
+    ----------
+    paXML : bs4.BeautifulSoup
         A beautiful soup of the xml content of the 
         response object received from proteinatlas.org.
+        
+    tissueResults : bs4.element.ResultSet
+        a set of tags from the XML file for a specific tissue
 
     Returns
     -------
     float : the normalized RNA Expression
 
     """
-    #<tissue organ="Female tissues" ontologyTerms="UBERON:0000992">
-    #Ovary</tissue>
     normRNAExp = None
+    allSiblings = find_specific_siblings(tissueResults, "level")
     
-    ovaryTissues = paXML.find_all(ontologyTerms="UBERON:0000992")
-    #finds all the tissue tags with the ontologyTerms attribute for ovary
-    allSiblings = []
-    for tag in ovaryTissues:
-        prevL = tag.find_previous_siblings("level")
-        nextL = tag.find_next_siblings("level")
-        #siblings with a <level> tag will have expression level data
-        siblings = prevL + nextL
-        allSiblings.append(siblings) #this is a list of lists of tags
-        #print(siblings)
-        
     for sibL in allSiblings: #for each list of tags
+        if normRNAExp != None:
+            break #RNA expression data should only exist once,
+            #stop once we've found it
         for sib in sibL: #for each tag
             if sib['type'] == 'normalizedRNAExpression':
                 normRNAExp = sib['expRNA']
+                break
     if normRNAExp == None:
         print("no value was set for normRNAExp")
         return normRNAExp
     else:
         return float(normRNAExp)
-    #In [147]: allSiblings[3][0]['type']
-    #Out[147]: 'normalizedRNAExpression'    
+     
 
-# I think I need to find the tissue tag for ovary, then look at its siblings
-# bs has sibling search functionality. Can find all "ontologyTerms" tags
-# that have ontologyTerms="UBERON:0000992" then check through siblings
-# to find <level type="normalizedRNAExpression" unitRNA="NX" expRNA="10.4">
-# for example
-
-def get_protein_exp_data(paXML):
-    """
-    parses the xml file for a target protein to retrieve protein expression
-    data from ovarian tissues. 
+def get_protein_exp_data(paXML, tissueResults, tissueTypes = cc.OVARY_TYPES):
+    """parses the xml file for a target protein to retrieve protein 
+    expression data from the provided tissue results. Defaults to ovary. 
     
     Ovarian tissue types:
-        -Follicle cells
-        -Ovarian stroma cells
-        -#TODO
+        -cc.FOLLICLE : "Follicle cells"
+        -cc.STROMA : "Ovarian stroma cells"
 
     Parameters
     ----------
     paXML : bs4.BeautifulSoup
-        
         A beautiful soup of the xml content of the 
         response object received from proteinatlas.org.
+        
+    tissueResults : bs4.element.ResultSet
+        a set of tags from the XML file for a specific tissue
+        
+    tissueTypes : list
+        a list of strings used by the protein atlas to identify types of cells
+        within an organ. Defaults to ovarian tissue. 
 
     Returns
     -------
     expDict : dict
-    
         A dictionary containing the protein expression levels for each of 
         the selected tissue types
-        
     """
-    #### PLAN ####
+    expDict = {}
+    allSiblings = find_specific_siblings(tissueResults, "tissueCell")
+    if allSiblings == []: #no protein expression data
+        for tissue in tissueTypes:
+            expDict[tissue] = cc.EXP_NA
+    else:
+        for tissue in tissueTypes:
+            tissue_exp = cc.EXP_NA #if we don't find an expression value, 
+            #it defaults to the value for "data not available"
+            for sibList in allSiblings:
+                for s in sibList:
+                    cellTag = s.find("cellType")
+                    if cellTag.get_text() == tissue:
+                        levelTag = cellTag.find_next_sibling("level")
+                        expDict[tissue] = levelTag.getText()
+
     
+    return expDict
+    
+    #### PLAN ####
+
     # dictionary for levels
     # what are dictionary keys? names of specific ovarian tissue
     #    put in constants
@@ -131,27 +190,18 @@ def get_protein_exp_data(paXML):
     #    "na" is different from "not detected" which is a provided value
 
 def test_run():
-    paR = get_protein_xml(test_ID)
-    paS = get_RNA_tissue_data(paR)
-    #tissueList = paS.find_all(has_tissue_and_ont)
-    #tissueList = paS.find_all(ontologyTerms="UBERON:0000992")
-    #print(tissueList[0])
-    #return tissueList
+    #start = time.perf_counter()
+    #paXML = get_protein_xml(cc.TEST_NEG_ID)
+    #tissues = get_ovary_tags(paXML)
+    
+    #exp_dict = get_protein_exp_data(paXML, tissues)
+    #stop = time.perf_counter()
+    
 
-    #for t in tissueList:
-        #print(t)
-        #if t["ontologyTerms"] == "UBERON:0000992":
-            #print(t)
-    #print(tag)
-    #print(tag["ontologyTerms"])
-    #found = paS.find_all(organ="Female tissues")
-    #if len(found) == 0:
-    #    print("nothing found")
-    #else:
-    #    for i in range(min(10, len(found))):
-    #        print(found[i].prettify())
-
-    return paS
+    #print(stop - start)
+    
+    #return exp_dict
+    
     
     
     

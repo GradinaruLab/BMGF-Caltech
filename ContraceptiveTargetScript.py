@@ -43,7 +43,8 @@ def compare_targets(csv_str):
     for target_dict in target_list:
         target_ID = target_dict[cc.ENSID_KEY]
         paXML = paa.get_protein_xml(target_ID)
-        norm_RNA_exp = paa.get_RNA_tissue_data(paXML)
+        ovaryTissues = paa.get_ovary_tags(paXML)
+        norm_RNA_exp = paa.get_RNA_tissue_data(paXML, ovaryTissues)
         target_dict[cc.RNA_EXP_KEY] = norm_RNA_exp
         #print(counter) #so I can see that it's actually running
         #print(target_dict[cc.GN_KEY])
@@ -92,3 +93,13 @@ def script_wrapper():
     """
     target_list = compare_targets(cc.TEST_CSV)
     write_target_csv(target_list)
+    
+def test_run():
+    target_list = compare_targets(cc.TEST_CSV)
+    return target_list
+    
+    
+    
+    
+    
+    
