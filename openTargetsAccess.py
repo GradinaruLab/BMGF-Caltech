@@ -14,34 +14,23 @@ import ContraceptiveConstants as cc
 full_csv = "targets_associated_with_female_infertility.csv"
 test_csv = "test_targets.csv"
 
-def data_from_csv(csv_str, ens_ID = cc.ENSID_KEY, 
-                  ASO = cc.ASO_KEY, GN = cc.GN_KEY):
+def data_from_csv(csv_str):
     """
     reads a csv from Open Targets and collects the gene name, ensembl ID, and
     overall association score for each target. 
+    
+    Deprecated - only works on the CSV file from the older version of Open 
+                 Targets
 
     Parameters
     ----------
     csv_str : str
         The name of the csv file from open targets
-        
-    #Defaults for the following parameters are defined in the file
-        #ContraceptiveConstants.py
-        
-    ens_ID : str
-        Used as the key for ensembl IDs in the dictionaries
-        
-    ASO : str
-        Used as the dictionary key for the overall association score provided 
-        by Open Targets 
-        
-    GN : str
-        Used as the key for gene names in the dictionaries
 
     Returns
     -------
-    A list of dictionaries where each dictionary contains the gene name, 
-    ensembl ID, and overall association score from Open Targets. 
+    A list of dictionaries where each dictionary contains the gene symbol, 
+    gene name, ensembl ID, and overall association score from Open Targets. 
 
     """
     outList = []
@@ -50,9 +39,11 @@ def data_from_csv(csv_str, ens_ID = cc.ENSID_KEY,
         reader = csv.DictReader(csvfile)
         for target in reader:
             target_dict = {}
-            target_dict[GN] = target['\ufefftarget.gene_info.symbol']
-            target_dict[ens_ID] = target['target.id']
-            target_dict[ASO] = target['association_score.overall']
+            target_dict[cc.GS_KEY] = target['\ufefftarget.gene_info.symbol']
+            target_dict[cc.ENSID_KEY] = target['target.id']
+            target_dict[cc.ASO_KEY] = target['association_score.overall']
+            target_dict[cc.NAME_KEY] = target['target.gene_info.name']
+            target_dict[cc.SOURCE_KEY] = cc.OT
             outList.append(target_dict)
     
     return outList
