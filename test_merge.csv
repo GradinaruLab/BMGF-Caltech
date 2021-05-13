@@ -1,0 +1,31 @@
+﻿,gene symbol,overallAssociationScore,geneticAssociations,somaticMutations,drugs,pathwaysSystemsBiology,textMining,rnaExpression,animalModels,targetName,Open Targets,Consensus-RNAseq:Low,Proteomics-DB:Low,HPA-Ab:,Mouse Infertility,Druggable,CITDBase
+0,CHD7,0.880615172,0.877307388,No data,No data,No data,0.463743011,No data,0.452785626,chromodomain helicase DNA binding protein 7,True,,,,,,
+1,BBS10,0.856658343,0.852927797,No data,No data,No data,0.10588503,No data,0.593705165,Bardet-Biedl syndrome 10,True,,,,,,
+2,FGFR1,0.855478115,0.851700548,No data,No data,No data,0.162556319,No data,0.560532925,fibroblast growth factor receptor 1,True,,,,,,
+3,GALT,0.852918918,0.852402174,No data,No data,No data,0.093013916,No data,No data,galactose-1-phosphate uridylyltransferase,True,,,,,,
+4,BBS12,0.848484316,0.844607956,No data,No data,No data,0.147111958,No data,0.589662583,Bardet-Biedl syndrome 12,True,,,,,,
+5,POU1F1,0.834525073,0.830816174,No data,No data,No data,0.155723283,No data,0.553192791,POU class 1 homeobox 1,True,,,,,,
+6,ANOS1,0.830773231,0.828826958,No data,No data,No data,0.243284144,No data,No data,anosmin 1,True,,,,,,
+7,PROKR2,0.824482089,0.819194585,No data,No data,No data,0.168748389,No data,0.543751661,prokineticin receptor 2,True,,,,,,
+8,HESX1,0.824110934,0.820658144,No data,No data,No data,0.114488989,No data,0.537387834,HESX homeobox 1,True,,,,,,
+9,BBS4,0.822679676,0.818738319,No data,No data,No data,0.143892576,No data,0.603727306,Bardet-Biedl syndrome 4,True,,,,,,
+10,NR0B1,0.822344614,0.810226565,0.332621869,No data,No data,0.169504884,No data,0.575468179,nuclear receptor subfamily 0 group B member 1,True,,,,,,
+11,BBS7,0.817999216,0.814165292,No data,No data,No data,0.133860306,No data,0.591759981,Bardet-Biedl syndrome 7,True,,,,,,
+12,BBS1,0.817502879,0.811539174,No data,No data,No data,0.210809363,No data,0.599067703,Bardet-Biedl syndrome 1,True,,,,,,
+13,GNRHR,0.81007024,0.78865337,No data,0.396271733,No data,0.079030492,No data,0.602160812,gonadotropin releasing hormone receptor,True,,,,,,
+14,PNPLA6,0.801027409,0.800382567,No data,No data,No data,0.116071637,No data,No data,patatin like phospholipase domain containing 6,True,,,,,,
+15,HBB,0.800442991,0.760887913,No data,0.545962824,No data,0.146924407,No data,No data,hemoglobin subunit beta,True,,,,,,
+16,FOXL2,0.79959432,0.794393286,No data,No data,No data,0.524776221,No data,0.550636204,forkhead box L2,True,F,—,F,F,Y,True
+17,BBS9,0.798850861,0.793885927,No data,No data,No data,0.128641784,No data,0.531282238,Bardet-Biedl syndrome 9,True,,,,,,
+18,OVGP1,,,,,,,,,,,F,F,F,—,Y,True
+19,ARX,,,,,,,,,,,F,CTB,—,,—,True
+20,ATP6V1E2,,,,,,,,,,,—,CTB,CTB,—,Y,True
+21,CHRNA5,,,,,,,,,,,F,F,—,,Y,True
+22,EDNRA,,,,,,,,,,,CTB,F,—,,Y,True
+23,GTSF1,,,,,,,,,,,—,CTB,CTB,M,—,True
+24,LDLRAD1,,,,,,,,,,,F,—,F,,—,True
+25,MSX1,,,,,,,,,,,F,—,F,,Y,True
+26,NANOS3,,,,,,,,,,,—,CTB,CTB,CTB,Y,True
+27,NDP,,,,,,,,,,,F,F,—,,Y,True
+28,PLA2G4D,,,,,,,,,,,F,F,—,—,Y,True
+29,RSPH1,,,,,,,,,,,F,CTB,—,M,—,True

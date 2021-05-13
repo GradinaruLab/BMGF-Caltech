@@ -59,12 +59,12 @@ def compare_targets(csv_str):
         print(target_dict[cc.GS_KEY])
     return target_list
 
-def write_target_csv(target_list):
+def write_target_csv(target_list, out_csv = "target_list_"):
     """
     Writes the list of target dictionaries to a csv file.
     
     Currently, the file is named "target_list_[today's date]"
-    #TODO make this a parameter in constants
+    
 
     Parameters
     ----------
@@ -78,7 +78,7 @@ def write_target_csv(target_list):
     """
     today = date.today()
     today_str = today.strftime("%b-%d-%Y")
-    out_csv_name = "target_list_" + today_str + ".csv"
+    out_csv_name = out_csv + today_str + ".csv"
     fieldnames = list(target_list[0].keys())
     
     with open(out_csv_name, 'w', newline = '') as csv_file:

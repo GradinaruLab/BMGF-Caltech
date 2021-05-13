@@ -6,10 +6,11 @@ Created on Fri Mar 12 10:16:59 2021
 """
 #default name for the csv downloaded from opentargets
 CSV_NAME ="targets_associated_with_female_infertility.csv"
-TEST_CSV = "OT_test_new.csv" #open targets
+OT_CSV_NAME = "EFO_0008560-associated-diseases.csv" #the updated version
+TEST_CSV = "OT_test_new.csv" #open targets updated version
 #CITDBase
 TEST_CITD_CSV = "CITDBase_test.csv"
-CITD_CSV_NAME = "CITDBase-Target-Search_with-M.csv"
+CITD_CSV_NAME = "CITDBase-Target-Search.csv"
 
 TEST_ID = "ENSG00000178394" #ID for the protein HTR1A
 #this protein is expressed in the ovaries, with both protein and RNA evidence

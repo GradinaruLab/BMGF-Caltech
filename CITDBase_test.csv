@@ -1,15 +1,15 @@
 ﻿"Gene
-Sex:F:CTB:M",Consensus-RNAseq:Low,Proteomics-DB:Low,HPA-Ab:,Mouse Infertility,Druggable
+Sex:F:CTB",Consensus-RNAseq:Low,Proteomics-DB:Low,HPA-Ab:,Mouse Infertility,Druggable
+OVGP1,F,F,F,—,Y
+ARX,F,CTB,—,NA,—
+ATP6V1E2,—,CTB,CTB,—,Y
+CHRNA5,F,F,—,NA,Y
+EDNRA,CTB,F,—,NA,Y
 FOXL2,F,—,F,F,Y
-ACPP,M,M,M,—,Y
-ACR,M,CTB,M,NA,Y
-AOC2,—,F,—,—,Y
-AP000812.5,CTB,—,—,—,—
-AP1S2,M,—,—,NA,Y
-AP1S3,M,—,—,—,Y
-APH1B,M,—,—,NA,Y
-APITD1,—,F,—,—,—
-APOBEC4,CTB,—,—,—,—
-NME9,F,—,—,—,Y
-NOBOX,—,F,—,F,—
-NOX5,M,—,—,—,Y
+GTSF1,—,CTB,CTB,M,—
+LDLRAD1,F,—,F,NA,—
+MSX1,F,—,F,NA,Y
+NANOS3,—,CTB,CTB,CTB,Y
+NDP,F,F,—,NA,Y
+PLA2G4D,F,F,—,—,Y
+RSPH1,F,CTB,—,M,—
