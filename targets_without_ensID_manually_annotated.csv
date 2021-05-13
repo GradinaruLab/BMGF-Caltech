@@ -1,0 +1,14 @@
+﻿,gene symbol,ensembl ID,overallAssociationScore,geneticAssociations,somaticMutations,drugs,pathwaysSystemsBiology,textMining,rnaExpression,animalModels,targetName,Open Targets,Consensus-RNAseq:Low,Proteomics-DB:Low,HPA-Ab:,Mouse Infertility,Druggable,CITDBase
+103,AP002748.5,ENSG00000256349,0.573348017,0.573348017,No data,No data,No data,No data,No data,No data,novel protein,TRUE,,,,,,
+104,AL162231.3,ENSG00000258728,0.573168975,0.573168975,No data,No data,No data,No data,No data,No data,novel protein (GALT-IL11RA readthrough),TRUE,,,,,,
+114,AC093899.2,ENSG00000251569,0.546103753,0.546103753,No data,No data,No data,No data,No data,No data,novel protein,TRUE,,,,,,
+128,AC127029.3,ENSG00000285947,0.511169882,0.511169882,No data,No data,No data,No data,No data,No data,novel protein,TRUE,,,,,,
+273,AL034430.1,ENSG00000285508,0.180867672,0.180867672,No data,No data,No data,No data,No data,No data,novel protein,TRUE,,,,,,
+275,AL034430.2,ENSG00000285723,0.176530781,0.176530781,No data,No data,No data,No data,No data,No data,novel protein,TRUE,,,,,,
+1862,TAFAZZIN,ENSG00000102125,0.07631824,No data,No data,No data,No data,0.081307568,No data,0.361264308,"tafazzin, phospholipid-lysophospholipid transacylase",TRUE,,,,,,
+2758,AC104389.5,ENSG00000239920,0.019456843,0.019456843,No data,No data,No data,No data,No data,No data,novel transcript,TRUE,,,,,,
+3593,AC022414.1,ENSG00000284762,0.003695799,No data,No data,No data,No data,0.018478993,No data,No data,phosphodiesterase 8B,TRUE,,,,,,
+4240,AC004080.3,ENSG00000257184,,,,,,,,,,,F,—,—,—,—,TRUE
+4241,AC007906.2,ENSG00000277639,,,,,,,,,,,F,—,—,—,—,TRUE
+4242,AC013470.2,ENSG00000226690,,,,,,,,,,,F,—,—,—,—,TRUE
+4262,AP000812.5,ENSG00000284922,,,,,,,,,,,CTB,—,—,—,—,TRUE

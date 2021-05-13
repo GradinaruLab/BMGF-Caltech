@@ -1,0 +1,13 @@
+﻿,Unnamed: 0,gene symbol,ensembl ID,overallAssociationScore,geneticAssociations,somaticMutations,drugs,pathwaysSystemsBiology,textMining,rnaExpression,animalModels,targetName,Open Targets,Consensus-RNAseq:Low,Proteomics-DB:Low,HPA-Ab:,Mouse Infertility,Druggable,CITDBase,normalized RNA expression,Ovarian stroma cells,Follicle cells
+0,0,CHD7,ENSG00000171316,0.880615172,0.877307388,No data,No data,No data,0.463743011,No data,0.452785626,chromodomain helicase DNA binding protein 7,True,,,,,,,1.4,na,na
+1,1,BBS10,ENSG00000179941,0.856658343,0.852927797,No data,No data,No data,0.10588503,No data,0.593705165,Bardet-Biedl syndrome 10,True,,,,,,,18.8,not detected,not detected
+2,2,FGFR1,ENSG00000077782,0.855478115,0.851700548,No data,No data,No data,0.162556319,No data,0.560532925,fibroblast growth factor receptor 1,True,,,,,,,42.0,not detected,low
+3,3,GALT,ENSG00000213930,0.852918918,0.852402174,No data,No data,No data,0.093013916,No data,No data,galactose-1-phosphate uridylyltransferase,True,,,,,,,8.7,low,na
+4,4,BBS12,ENSG00000181004,0.848484316,0.844607956,No data,No data,No data,0.147111958,No data,0.589662583,Bardet-Biedl syndrome 12,True,,,,,,,5.0,not detected,not detected
+5,5,POU1F1,ENSG00000064835,0.834525073,0.830816174,No data,No data,No data,0.155723283,No data,0.553192791,POU class 1 homeobox 1,True,,,,,,,0.0,not detected,not detected
+6,6,FOXL2,ENSG00000183770,0.79959432,0.794393286,No data,No data,No data,0.524776221,No data,0.550636204,forkhead box L2,True,F,—,F,F,Y,True,55.5,medium,medium
+7,7,MAGEL2,ENSG00000254585,0.741902697,0.735433818,No data,No data,No data,0.31219116,No data,0.59181045,MAGE family member L2,True,,,,,,,7.2,na,na
+8,8,AL034430.1,,0.180867672,0.180867672,No data,No data,No data,No data,No data,No data,novel protein,True,,,,,,,,na,na
+9,9,ROR2,ENSG00000169071,0.115238362,No data,No data,No data,No data,No data,No data,0.576191812,receptor tyrosine kinase like orphan receptor 2,True,,,,,,,19.1,medium,na
+10,10,AP000812.5,,,,,,,,,,,,CTB,—,—,—,—,True,,na,na
+11,11,BAG5,ENSG00000166170,,,,,,,,,,,—,—,CTB,—,—,True,11.4,not detected,medium

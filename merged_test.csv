@@ -1,0 +1,13 @@
+﻿,gene symbol,ensembl ID,overallAssociationScore,geneticAssociations,somaticMutations,drugs,pathwaysSystemsBiology,textMining,rnaExpression,animalModels,targetName,Open Targets,Consensus-RNAseq:Low,Proteomics-DB:Low,HPA-Ab:,Mouse Infertility,Druggable,CITDBase
+0,CHD7,ENSG00000171316,0.880615172,0.877307388,No data,No data,No data,0.463743011,No data,0.452785626,chromodomain helicase DNA binding protein 7,TRUE,,,,,,
+1,BBS10,ENSG00000179941,0.856658343,0.852927797,No data,No data,No data,0.10588503,No data,0.593705165,Bardet-Biedl syndrome 10,TRUE,,,,,,
+2,FGFR1,ENSG00000077782,0.855478115,0.851700548,No data,No data,No data,0.162556319,No data,0.560532925,fibroblast growth factor receptor 1,TRUE,,,,,,
+3,GALT,ENSG00000213930,0.852918918,0.852402174,No data,No data,No data,0.093013916,No data,No data,galactose-1-phosphate uridylyltransferase,TRUE,,,,,,
+4,BBS12,ENSG00000181004,0.848484316,0.844607956,No data,No data,No data,0.147111958,No data,0.589662583,Bardet-Biedl syndrome 12,TRUE,,,,,,
+5,POU1F1,ENSG00000064835,0.834525073,0.830816174,No data,No data,No data,0.155723283,No data,0.553192791,POU class 1 homeobox 1,TRUE,,,,,,
+6,FOXL2,ENSG00000183770,0.79959432,0.794393286,No data,No data,No data,0.524776221,No data,0.550636204,forkhead box L2,TRUE,F,—,F,F,Y,TRUE
+7,MAGEL2,ENSG00000254585,0.741902697,0.735433818,No data,No data,No data,0.31219116,No data,0.59181045,MAGE family member L2,TRUE,,,,,,
+8,AL034430.1,ENSG00000285508,0.180867672,0.180867672,No data,No data,No data,No data,No data,No data,novel protein,TRUE,,,,,,
+9,ROR2,ENSG00000169071,0.115238362,No data,No data,No data,No data,No data,No data,0.576191812,receptor tyrosine kinase like orphan receptor 2,TRUE,,,,,,
+10,AP000812.5,ENSG00000284922,,,,,,,,,,,CTB,—,—,—,—,TRUE
+11,BAG5,ENSG00000166170,,,,,,,,,,,—,—,CTB,—,—,TRUE

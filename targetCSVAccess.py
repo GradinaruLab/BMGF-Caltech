@@ -151,7 +151,7 @@ def csv_wrapper(OT_csv, CITD_csv, out_csv, ens_col_name = cc.ENSID_KEY,
     """
     df = merge_OT_and_CITD(OT_csv, CITD_csv)
     df = ensIDs_for_df(df, ens_col_name, symbol_col)
-    df.to_csv(out_csv, encoding = "utf-8-sig")
+    df.to_csv(out_csv, encoding = "utf-8-sig", index = False)
     
 
 def test_run():
