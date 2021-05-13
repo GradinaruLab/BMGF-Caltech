@@ -56,7 +56,7 @@ def compare_targets(csv_str):
         #debug
         print(counter)
         counter += 1
-        print(target_dict[cc.GN_KEY])
+        print(target_dict[cc.GS_KEY])
     return target_list
 
 def write_target_csv(target_list):
@@ -109,7 +109,8 @@ def script_wrapper():
     print(stop - start)
     
 def test_run():
-    target_list = compare_targets(cc.TEST_CSV)
+    target_list = compare_targets("missing_targets_from_May-05-2021.csv")
+    write_target_csv(target_list)
     return target_list
     
     

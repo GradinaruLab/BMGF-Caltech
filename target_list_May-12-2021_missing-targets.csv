@@ -1,0 +1,10 @@
+gene symbol,ensembl ID,association score overall,gene name,target source,normalized RNA expression,Ovarian stroma cells,Follicle cells
+ESR2,ENSG00000140009,1,estrogen receptor 2,Open Targets,19.1,low,not detected
+BBIP1,ENSG00000214413,1,BBSome interacting protein 1,Open Targets,14.9,not detected,not detected
+MKS1,ENSG00000011143,1,MKS transition zone complex subunit 1,Open Targets,20.6,not detected,na
+TBX19,ENSG00000143178,1,T-box transcription factor 19,Open Targets,2.9,not detected,not detected
+C8orf37,ENSG00000156172,1,chromosome 8 open reading frame 37,Open Targets,13,not detected,medium
+GATA4,ENSG00000136574,1,GATA binding protein 4,Open Targets,63.4,high,not detected
+IFT74,ENSG00000096872,1,intraflagellar transport 74,Open Targets,14,not detected,low
+LHX4,ENSG00000121454,1,LIM homeobox 4,Open Targets,2.2,na,na
+IL17RD,ENSG00000144730,1,interleukin 17 receptor D,Open Targets,12.6,medium,na

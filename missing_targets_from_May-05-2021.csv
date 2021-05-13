@@ -1,0 +1,10 @@
+﻿target.gene_info.symbol,target.id,association_score.overall,association_score.datatypes.genetic_association,association_score.datatypes.somatic_mutation,association_score.datatypes.known_drug,association_score.datatypes.affected_pathway,association_score.datatypes.rna_expression,association_score.datatypes.literature,association_score.datatypes.animal_model,target.gene_info.name
+ESR2,ENSG00000140009,1,1,0,1,0,0,0.06312839,0.315424783,estrogen receptor 2
+BBIP1,ENSG00000214413,1,1,0,0,0,0,0.048144444,0.321023676,BBSome interacting protein 1
+MKS1,ENSG00000011143,1,1,0,0,0,0,0.021788222,0.324975654,MKS transition zone complex subunit 1
+TBX19,ENSG00000143178,1,1,0,0,0,0,0.044499983,0.271831111,T-box transcription factor 19
+C8orf37,ENSG00000156172,1,1,0,0,0,0,0.0402,0.267303889,chromosome 8 open reading frame 37
+GATA4,ENSG00000136574,1,1,0,0,0,0,0.0104,0.282956592,GATA binding protein 4
+IFT74,ENSG00000096872,1,1,0,0,0,0,0.041455556,0,intraflagellar transport 74
+LHX4,ENSG00000121454,1,1,0,0,0,0,0.033212918,0,LIM homeobox 4
+IL17RD,ENSG00000144730,1,1,0,0,0,0,0.0256,0,interleukin 17 receptor D
