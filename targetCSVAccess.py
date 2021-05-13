@@ -8,6 +8,7 @@ Created on Tue May 11 11:11:35 2021
 import requests, sys
 import ContraceptiveConstants as cc
 import pandas as pd
+from datetime import datetime
 
 def get_ensID(symbol):
     """
@@ -127,6 +128,29 @@ def merge_OT_and_CITD(OT_csv, CITD_csv):
     CITD_df = prepare_df(CITD_csv, cc.CITD)
     out_df = pd.merge(OT_df, CITD_df, on = cc.GS_KEY, how = 'outer')
     return out_df
+
+def date_csv_name(csv_name):
+    """
+    given the name for a csv file, inserts the date at the end
+
+    Parameters
+    ----------
+    csv_name : str
+        the name of a csv file
+
+    Returns
+    -------
+     str
+        the csv file with the date inserted
+
+    """
+    now = datetime.now()
+    date_str = now.strftime("%Y-%m-%d_%H-%M-%S")
+
+    if csv_name[-4:].lower() == ".csv":
+        return csv_name[:-4] + "_" + date_str + ".csv"
+    else:
+        return csv_name + "_" + date_str + ".csv"
     
 def csv_wrapper(OT_csv, CITD_csv, out_csv, ens_col_name = cc.ENSID_KEY, 
                 symbol_col = cc.GS_KEY):

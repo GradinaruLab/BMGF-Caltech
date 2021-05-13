@@ -10,6 +10,8 @@ import requests
 from bs4 import BeautifulSoup
 import ContraceptiveConstants as cc
 import time #for debugging
+from datetime import datetime
+
 test_ID = "ENSG00000178394" #ID for the protein HTR1A
 #this protein is expressed in the ovaries, with both protein and RNA evidence
 
@@ -31,6 +33,36 @@ def get_protein_xml(ensID):
     #https://www.proteinatlas.org/ENSG00000178394.xml
     paURL = "https://www.proteinatlas.org/" + ensID + ".xml"
     paResp = requests.get(paURL) #about 1.1 seconds
+    
+    #error responses
+    status = paResp.status_code
+    if status > 200: #equivalent to if not paResp.ok
+        error_text = "status code: " + str(status)
+        print(error_text)
+        now = datetime.now()
+        date_str = now.strftime("%Y-%m-%d_%H:%M:%S")
+        with open("error_log.txt", "a") as f:
+            f.write(date_str + ' ' + ensID + ' ' + error_text + '\n')
+        #if it's 404, it's fine, for ex. ENSG00000166473
+        if status != 404:
+            #try for a bit to see if the server decides to behave
+            retry = 10 #use small retry for unexpected errors
+            if status in [502, 503, 504]: #server errors that will hopefully
+            #resolve with enough attmepts
+                retry = 100
+            for n in range(retry):
+                print("re request attempt: " + str(n+1))
+                paResp = requests.get(paURL)
+                if paResp.ok:
+                    print('successful request')
+                    with open("error_log.txt", "a") as f:
+                        f.write("resolved after " + str(n+1) + "retries"+'\n')
+                    break
+            
+    
+    #even if we break out of the loop and there's still an error, we can
+    #proceed as normal, because it won't break anything later to do this, 
+    #it'll just make 'na' everywhere (which is what we want from a 404)
     paXML = BeautifulSoup(paResp.content, 'lxml-xml', 
                                     from_encoding = 'utf-8')
     #about 0.4 seconds

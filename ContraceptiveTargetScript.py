@@ -5,10 +5,8 @@ Created on Thu Mar 11 10:58:55 2021
 @author: Carrie
 """
 import proteinAtlasAccess as paa
-import openTargetsAccess as ota
 import ContraceptiveConstants as cc
-from datetime import datetime
-import csv
+import targetCSVAccess as tca
 import time
 import pandas as pd
 
@@ -77,28 +75,7 @@ def compare_targets(csv_str, ens_col = cc.ENSID_KEY):
     df[cc.FOLLICLE] = follicle
     return df
 
-def date_csv_name(csv_name):
-    """
-    given the name for a csv file, inserts the date at the end
 
-    Parameters
-    ----------
-    csv_name : str
-        the name of a csv file
-
-    Returns
-    -------
-     str
-        the csv file with the date inserted
-
-    """
-    now = datetime.now()
-    date_str = now.strftime("%Y-%m-%d_%H-%M-%S")
-
-    if csv_name[-4:].lower() == ".csv":
-        return csv_name[:-4] + "_" + date_str + ".csv"
-    else:
-        return csv_name + "_" + date_str + ".csv"
         
     
 
@@ -123,7 +100,7 @@ def write_target_csv(target_df, out_csv = "target_list.csv"):
     None.
 
     """
-    out_csv_name = date_csv_name(out_csv)
+    out_csv_name = tca.date_csv_name(out_csv)
     target_df.to_csv(out_csv_name, encoding = "utf-8-sig", index = False)
             
     
