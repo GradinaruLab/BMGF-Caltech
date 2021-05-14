@@ -5,8 +5,9 @@ Created on Fri Mar 12 10:16:59 2021
 @author: Carrie
 """
 TEST_CSV = "merged_test.csv" 
+CSV_NAME = "merged_OT_and_CITD_targets.csv"
 #default name for the csv downloaded from opentargets
-CSV_NAME ="targets_associated_with_female_infertility.csv"
+OLD_OT_CSV = "targets_associated_with_female_infertility.csv"
 OT_CSV_NAME = "EFO_0008560-associated-diseases.csv" #the updated version
 #CITDBase
 TEST_CITD_CSV = "CITDBase_test.csv"

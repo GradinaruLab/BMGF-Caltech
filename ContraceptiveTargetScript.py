@@ -72,6 +72,10 @@ def compare_targets(csv_str, ens_col = cc.ENSID_KEY):
                 print("sleeping for 30 seconds")
                 time.sleep(30)
                 print("resuming")
+            elif counter % 100 == 0:
+                print("sleeping for 10 seconds")
+                time.sleep(10)
+                print("resuming")
                 
         #otherwise, no ensembl ID, so report expression as not available
         #RNA will default to NaN since that column is floats, not strings
