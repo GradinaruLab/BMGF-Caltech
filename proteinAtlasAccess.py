@@ -48,7 +48,7 @@ def get_protein_xml(ensID):
             #try for a bit to see if the server decides to behave
             retry = 10 #use small retry for unexpected errors
             if status in [502, 503, 504]: #server errors that will hopefully
-            #resolve with enough attmepts
+            #resolve with enough attempts
                 retry = 100
             for n in range(retry):
                 print("re request attempt: " + str(n+1))

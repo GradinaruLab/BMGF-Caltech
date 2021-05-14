@@ -36,7 +36,7 @@ def compare_targets(csv_str, ens_col = cc.ENSID_KEY):
         provided in the csv
 
     """
-    counter = 0 #so I can see that it's working
+    counter = 0 #so I can see that it's working and for keeping server happy
     df = pd.read_csv(csv_str, encoding = 'utf-8-sig')
     #adding 3 columns: 
     #   -cc.RNA_EXP_KEY
@@ -64,6 +64,15 @@ def compare_targets(csv_str, ens_col = cc.ENSID_KEY):
             print(counter)
             counter += 1
             print(df[cc.GS_KEY][i])
+            #every 500 entries, give the server a 30 second break
+            #it got mad at me at entry 1,400
+            #this will add about 8 minutes to the 4,000 list which should take
+            #about 113 minutes, so up to 121
+            if counter % 500 == 0:
+                print("sleeping for 30 seconds")
+                time.sleep(30)
+                print("resuming")
+                
         #otherwise, no ensembl ID, so report expression as not available
         #RNA will default to NaN since that column is floats, not strings
         else:
