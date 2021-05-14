@@ -200,11 +200,13 @@ def get_protein_exp_data(paXML, tissueResults, tissueTypes = cc.OVARY_TYPES):
             tissue_exp = cc.EXP_NA #if we don't find an expression value, 
             #it defaults to the value for "data not available"
             for sibList in allSiblings:
+                #print(sibList)
                 for s in sibList:
                     cellTag = s.find("cellType")
                     if cellTag.get_text() == tissue:
                         levelTag = cellTag.find_next_sibling("level")
-                        tissue_exp = levelTag.getText()
+                        if levelTag["type"] == "expression":
+                            tissue_exp = levelTag.getText()
             expDict[tissue] = tissue_exp
 
     
@@ -224,7 +226,7 @@ def get_protein_exp_data(paXML, tissueResults, tissueTypes = cc.OVARY_TYPES):
 
 def test_run():
     start = time.perf_counter()
-    paXML = get_protein_xml(cc.TEST_PART_ID)
+    paXML = get_protein_xml(cc.TEST_FALSE_POS_ID)
     tissues = get_ovary_tags(paXML)
     
     exp_dict = get_protein_exp_data(paXML, tissues)

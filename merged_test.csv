@@ -12,3 +12,6 @@
 10,AP000812.5,ENSG00000284922,,,,,,,,,,,CTB,—,—,—,—,TRUE
 11,BAG5,ENSG00000166170,,,,,,,,,,,—,—,CTB,—,—,TRUE
 12,PKD1L2,ENSG00000166473,0.073915971,No data,No data,No data,No data,No data,No data,0.369579855,polycystin 1 like 2 (gene/pseudogene),TRUE,,,,,,
+13,CAPRIN2,ENSG00000110888,,,,,,,,,,,—,CTB,—,,—,TRUE
+14,CCDC113,ENSG00000103021,,,,,,,,,,,F,—,—,—,—,TRUE
+15,ACSS2,ENSG00000131069,0.02141714,No data,No data,No data,No data,0.1070857,No data,No data,acyl-CoA synthetase short chain family member 2,TRUE,,,,,,

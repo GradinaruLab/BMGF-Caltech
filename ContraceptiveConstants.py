@@ -18,6 +18,9 @@ TEST_NEG_ID = "ENSG00000173714" #WFIKKN2 which has no expression data in any
 #ovarian tissue
 TEST_PART_ID = "ENSG00000163093" #BBS5 which has expression data in stroma
 #but not in follicles
+TEST_FALSE_POS_ID = "ENSG00000110888" #CAPRIN2 which has a high staining
+#expression, but not detected actual expression, expert annotated staining
+#as off-target binding.
 
 
 #keys for the dictionaries in the list of targets
