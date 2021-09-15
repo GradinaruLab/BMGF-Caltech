@@ -1,0 +1,35 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Sep 15 15:50:28 2021
+
+@author: Carrie
+"""
+Contents of Contraceptive_Targeting\CITDB Threshold
+
+datasets using different search criteria from CITDB. Note that the target 
+named "Mar-10" in the csvs is actually has the symbol "MARCH10". 
+
+----
+
+CITDBase-Target-Search_high-threshold_F_CTB_with-info.csv
+    Downloaded from CITDB on 6/21/21, using the following:
+        Sex:F:CTB	
+        Consensus-RNAseq:High	
+        Proteomics-DB:High	
+        HPA-Ab:	
+        Mouse Infertility	
+        Druggable
+
+CITDBase-Target-Search_with-M.csv
+    Downloaded from CITDB on 5/11/21, using the following:
+        Sex:F:CTB:M	
+        Consensus-RNAseq:Low	
+        Proteomics-DB:Low	
+        HPA-Ab:	
+        Mouse Infertility	
+        Druggable
+
+merged_with_high_threshold_CITDB_2021-06-21.csv
+    The high-threshold CITDBase search from 6/21/21 merged with the full 
+    Open Targets dataset from 5/11/21. 
+    

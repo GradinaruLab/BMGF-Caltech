@@ -1,0 +1,33 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Sep 15 16:13:06 2021
+
+@author: Carrie
+"""
+
+Contraceptive_Targeting\Archive
+
+Folder containing old data, output, and planning documents.
+
+Subfolders:
+
+Anat's csvs:
+    Contains spreadsheets with Anat's database combination and analysis
+    
+Bad output:
+    Output files from before the false positive bug was fixed. 
+    
+    -May 4 2021 IO
+        Input/Output from 5/4/21 - Open Targets only, post website update
+    -Old Open Targets IO:
+        Input/Output from 5/12/21 on the old Open Targets data from before
+        they updated the website
+    
+Old Open Targets Data:
+    Open targets data from before they updated their website and removed
+    filtering based on tissue. These data were downloaded from a search
+    for female infertility that (I think) filtered on ovary expression. 
+    
+Test Output
+    Output from various test runs of the script.
+    

@@ -1,0 +1,36 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Sep 15 15:13:33 2021
+
+@author: Carrie
+"""
+
+Contents of the folder: \Contraceptive_Targeting\Test Data
+
+CSV files containing a few lines of data for testing purposes. 
+
+The merged 
+files were originally generated to test merging csvs from different 
+databases, but are now used to test other parts of the project.
+
+-----
+
+CITDBase_test.csv
+    Test data from CITDBase
+
+OT_test_new.csv
+    Test data from Open Targets. Taken from the data downloaded after the 
+    website updated. 
+    
+merged_test.csv
+    merged data from Open Targets and CITDB. Selected to test for false 
+    positives (this was resolved 5/14/21). 
+    
+test_merge.csv
+    merged data from Open Targets and CITDB. No ensembl IDs. Pretty sure this
+    was generated from CITDBase_test.csv and OT_test_new.csv on 5/13/21
+    
+test_merge_with_ensID.csv
+    same as test_merge.csv but with ensembl IDs added. 
+    
+    
