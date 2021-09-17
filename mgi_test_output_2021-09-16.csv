@@ -1,0 +1,8 @@
+﻿gene symbol,ensembl ID,overallAssociationScore,geneticAssociations,somaticMutations,drugs,pathwaysSystemsBiology,textMining,rnaExpression,animalModels,targetName,Open Targets,Consensus-RNAseq:Low,Proteomics-DB:Low,HPA-Ab:,Mouse Infertility,Druggable,CITDBase,normalized RNA expression,Ovarian stroma cells,Follicle cells,MGI_ID
+CHD7,ENSG00000171316,0.8806151720000001,0.877307388,No data,No data,No data,0.46374301100000004,No data,0.452785626,chromodomain helicase DNA binding protein 7,True,,,,,,,1.4,na,na,MGI:2444748
+BBS10,ENSG00000179941,0.856658343,0.852927797,No data,No data,No data,0.10588503,No data,0.593705165,Bardet-Biedl syndrome 10,True,,,,,,,18.8,not detected,not detected,MGI:1919019
+FGFR1,ENSG00000077782,0.855478115,0.851700548,No data,No data,No data,0.162556319,No data,0.560532925,fibroblast growth factor receptor 1,True,,,,,,,42.0,medium,na,MGI:95522
+GALT,ENSG00000213930,0.852918918,0.8524021740000001,No data,No data,No data,0.093013916,No data,No data,galactose-1-phosphate uridylyltransferase,True,,,,,,,8.7,low,na,MGI:95638
+BBS12,ENSG00000181004,0.848484316,0.8446079559999999,No data,No data,No data,0.14711195800000001,No data,0.589662583,Bardet-Biedl syndrome 12,True,,,,,,,5.0,not detected,not detected,MGI:2686651
+POU1F1,ENSG00000064835,0.834525073,0.8308161740000001,No data,No data,No data,0.15572328300000002,No data,0.553192791,POU class 1 homeobox 1,True,,,,,,,0.0,not detected,not detected,MGI:97588
+FOXL2,ENSG00000183770,0.79959432,0.7943932859999999,No data,No data,No data,0.524776221,No data,0.550636204,forkhead box L2,True,F,—,F,F,Y,True,55.5,medium,medium,MGI:1349428
