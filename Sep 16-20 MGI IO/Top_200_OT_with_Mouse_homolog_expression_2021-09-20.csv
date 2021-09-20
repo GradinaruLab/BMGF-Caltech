@@ -1,0 +1,212 @@
+﻿gene symbol,ensembl ID,overallAssociationScore,geneticAssociations,somaticMutations,drugs,pathwaysSystemsBiology,textMining,rnaExpression,animalModels,targetName,Open Targets,Consensus-RNAseq:Low,Proteomics-DB:Low,HPA-Ab:,Mouse Infertility,Druggable,CITDBase,normalized RNA expression,Ovarian stroma cells,Follicle cells,MGI_ID,Present,Not Specified,Absent,Strong,Weak
+CHD7,ENSG00000171316,0.8806151720000001,0.877307388,No data,No data,No data,0.463743011,No data,0.452785626,chromodomain helicase DNA binding protein 7,True,,,,,,,1.4,na,na,MGI:2444748,0.0,0.0,0.0,0.0,0.0
+BBS10,ENSG00000179941,0.856658343,0.852927797,No data,No data,No data,0.10588503,No data,0.593705165,Bardet-Biedl syndrome 10,True,,,,,,,18.8,not detected,not detected,MGI:1919019,0.0,0.0,0.0,0.0,0.0
+FGFR1,ENSG00000077782,0.855478115,0.851700548,No data,No data,No data,0.162556319,No data,0.560532925,fibroblast growth factor receptor 1,True,,,,,,,42.0,medium,na,MGI:95522,2.0,0.0,0.0,0.0,0.0
+GALT,ENSG00000213930,0.852918918,0.852402174,No data,No data,No data,0.093013916,No data,No data,galactose-1-phosphate uridylyltransferase,True,,,,,,,8.7,low,na,MGI:95638,0.0,0.0,0.0,0.0,0.0
+BBS12,ENSG00000181004,0.848484316,0.844607956,No data,No data,No data,0.147111958,No data,0.589662583,Bardet-Biedl syndrome 12,True,,,,,,,5.0,not detected,not detected,MGI:2686651,0.0,0.0,0.0,0.0,0.0
+POU1F1,ENSG00000064835,0.834525073,0.830816174,No data,No data,No data,0.155723283,No data,0.553192791,POU class 1 homeobox 1,True,,,,,,,0.0,not detected,not detected,MGI:97588,0.0,0.0,0.0,0.0,0.0
+ANOS1,ENSG00000011201,0.8307732309999999,0.828826958,No data,No data,No data,0.243284144,No data,No data,anosmin 1,True,,,,,,,0.9,na,na,MGI:3649773,0.0,0.0,0.0,0.0,0.0
+PROKR2,ENSG00000101292,0.8244820890000001,0.819194585,No data,No data,No data,0.168748389,No data,0.543751661,prokineticin receptor 2,True,,,,,,,0.0,na,na,MGI:2181363,0.0,1.0,0.0,0.0,0.0
+HESX1,ENSG00000163666,0.824110934,0.820658144,No data,No data,No data,0.114488989,No data,0.537387834,HESX homeobox 1,True,,,,,,,2.1,low,high,MGI:96071,0.0,0.0,0.0,0.0,0.0
+BBS4,ENSG00000140463,0.8226796759999999,0.818738319,No data,No data,No data,0.143892576,No data,0.603727306,Bardet-Biedl syndrome 4,True,,,,,,,14.8,not detected,na,MGI:2143311,0.0,0.0,0.0,0.0,0.0
+NR0B1,ENSG00000169297,0.822344614,0.810226565,0.332621869,No data,No data,0.169504884,No data,0.575468179,nuclear receptor subfamily 0 group B member 1,True,,,,,,,3.5,na,na,MGI:1352460,0.0,0.0,0.0,0.0,0.0
+BBS7,ENSG00000138686,0.8179992159999999,0.814165292,No data,No data,No data,0.133860306,No data,0.591759981,Bardet-Biedl syndrome 7,True,,,,,,,18.5,not detected,not detected,MGI:1918742,20.0,0.0,2.0,0.0,0.0
+BBS1,ENSG00000174483,0.8175028790000001,0.811539174,No data,No data,No data,0.210809363,No data,0.599067703,Bardet-Biedl syndrome 1,True,,,,,,,30.4,not detected,not detected,MGI:1277215,0.0,0.0,0.0,0.0,0.0
+GNRHR,ENSG00000109163,0.81007024,0.78865337,No data,0.396271733,No data,0.079030492,No data,0.602160812,gonadotropin releasing hormone receptor,True,,,,,,,0.2,not detected,not detected,MGI:95790,0.0,0.0,0.0,0.0,0.0
+PNPLA6,ENSG00000032444,0.801027409,0.800382567,No data,No data,No data,0.116071637,No data,No data,patatin like phospholipase domain containing 6,True,,,,,,,12.5,high,na,MGI:1354723,0.0,0.0,0.0,0.0,0.0
+HBB,ENSG00000244734,0.8004429909999999,0.760887913,No data,0.545962824,No data,0.146924407,No data,No data,hemoglobin subunit beta,True,,,,,,,82.6,not detected,not detected,MGI:5474850,0.0,0.0,0.0,0.0,0.0
+HBB,ENSG00000244734,0.8004429909999999,0.760887913,No data,0.545962824,No data,0.146924407,No data,No data,hemoglobin subunit beta,True,,,,,,,82.6,not detected,not detected,MGI:96021,0.0,0.0,0.0,0.0,0.0
+HBB,ENSG00000244734,0.8004429909999999,0.760887913,No data,0.545962824,No data,0.146924407,No data,No data,hemoglobin subunit beta,True,,,,,,,82.6,not detected,not detected,MGI:96022,0.0,0.0,0.0,0.0,0.0
+HBB,ENSG00000244734,0.8004429909999999,0.760887913,No data,0.545962824,No data,0.146924407,No data,No data,hemoglobin subunit beta,True,,,,,,,82.6,not detected,not detected,MGI:96025,0.0,0.0,0.0,0.0,0.0
+FOXL2,ENSG00000183770,0.79959432,0.794393286,No data,No data,No data,0.524776221,No data,0.550636204,forkhead box L2,True,F,—,F,F,Y,True,55.5,medium,medium,MGI:1349428,27.0,0.0,7.0,1.0,1.0
+BBS9,ENSG00000122507,0.7988508609999999,0.793885927,No data,No data,No data,0.128641784,No data,0.531282238,Bardet-Biedl syndrome 9,True,,,,,,,13.4,not detected,medium,MGI:2442833,0.0,0.0,0.0,0.0,0.0
+NR5A1,ENSG00000136931,0.7909425379999999,0.785931837,No data,No data,No data,0.047087093,No data,0.593638232,nuclear receptor subfamily 5 group A member 1,True,,,,,,,13.1,na,na,MGI:1346833,17.0,0.0,0.0,1.0,0.0
+PROK2,ENSG00000163421,0.7893076379999999,0.787929697,No data,No data,No data,0.172242561,No data,No data,prokineticin 2,True,,,,,,,0.7,not detected,na,MGI:1354178,0.0,0.0,0.0,0.0,0.0
+BBS5,ENSG00000163093,0.788888138,0.787798964,No data,No data,No data,0.196051303,No data,No data,Bardet-Biedl syndrome 5,True,,,,,,,9.3,not detected,na,MGI:1919819,0.0,0.0,0.0,0.0,0.0
+FGF8,ENSG00000107831,0.78725836,0.780212602,No data,No data,No data,0.072851338,No data,0.5170358,fibroblast growth factor 8,True,,,,,,,0.1,na,na,MGI:99604,1.0,0.0,1.0,0.0,0.0
+KISS1R,ENSG00000116014,0.787186686,0.781578329,No data,No data,No data,0.141049022,No data,0.603093827,KISS1 receptor,True,,,,,,,0.4,not detected,high,MGI:2148793,0.0,0.0,0.0,0.0,0.0
+WDR11,ENSG00000120008,0.785352712,0.780173641,No data,No data,No data,0.070807296,No data,0.598212178,WD repeat domain 11,True,,,,,,,19.4,not detected,na,MGI:1920230,0.0,0.0,0.0,0.0,0.0
+CLPP,ENSG00000125656,0.7849287859999999,0.782453808,No data,No data,No data,0.10667797,No data,0.524694316,caseinolytic mitochondrial matrix peptidase proteolytic subunit,True,,,,,,,23.7,low,na,MGI:1858213,0.0,0.0,0.0,0.0,0.0
+CYP21A2,ENSG00000231852,0.783375433,0.781814787,No data,No data,No data,0.124851716,No data,No data,cytochrome P450 family 21 subfamily A member 2,True,,,,,,,0.2,not detected,na,MGI:88591,0.0,0.0,0.0,0.0,0.0
+LARS2,ENSG00000011376,0.7829717979999999,0.781978933,No data,No data,No data,0.178715622,No data,No data,"leucyl-tRNA synthetase 2, mitochondrial",True,,,,,,,10.2,low,low,MGI:2142973,0.0,0.0,0.0,0.0,0.0
+PROP1,ENSG00000175325,0.781828675,0.773508185,No data,No data,No data,0.106462356,No data,0.597503344,PROP paired-like homeobox 1,True,,,,,,,0.0,not detected,not detected,MGI:109330,0.0,0.0,0.0,0.0,0.0
+CYP17A1,ENSG00000148795,0.780520234,0.772728921,No data,0.036957985,No data,0.095273889,No data,0.462695499,cytochrome P450 family 17 subfamily A member 1,True,,,,,,,3.2,not detected,not detected,MGI:88586,3.0,0.0,1.0,0.0,0.0
+BMP15,ENSG00000130385,0.77540006,0.771563769,No data,No data,No data,0.05362805,No data,0.442294691,bone morphogenetic protein 15,True,,,,,,,0.1,na,na,MGI:1316745,2.0,0.0,0.0,0.0,0.0
+TACR3,ENSG00000169836,0.7741876740000001,0.769334047,No data,No data,No data,0.052036844,No data,0.570566705,tachykinin receptor 3,True,,,,,,,0.1,na,na,MGI:892968,1.0,0.0,1.0,0.0,0.0
+MKKS,ENSG00000125863,0.772724275,0.764248715,No data,No data,No data,0.117464489,No data,0.602867538,MKKS centrosomal shuttling protein,True,,,,,,,17.5,not detected,medium,MGI:1891836,0.0,0.0,0.0,0.0,0.0
+STAR,ENSG00000147465,0.769382207,0.764127569,No data,No data,No data,0.168991478,No data,0.539474554,steroidogenic acute regulatory protein,True,,,,,,,124.6,not detected,not detected,MGI:102760,0.0,0.0,0.0,0.0,0.0
+BBS2,ENSG00000125124,0.768813256,0.760328151,No data,No data,No data,0.127570041,No data,0.597163553,Bardet-Biedl syndrome 2,True,,,,,,,26.3,not detected,not detected,MGI:2135267,0.0,0.0,0.0,0.0,0.0
+HARS2,ENSG00000125821,0.759444235,0.758560449,No data,No data,No data,0.116119594,No data,No data,"histidyl-tRNA synthetase 2, mitochondrial",True,,,,,,,19.1,not detected,na,MGI:1918041,0.0,0.0,0.0,0.0,0.0
+HSD17B3,ENSG00000130948,0.759366558,0.759227965,No data,No data,No data,0.011087396,No data,No data,hydroxysteroid 17-beta dehydrogenase 3,True,—,CTB,—,—,Y,True,0.5,not detected,na,MGI:107177,0.0,0.0,0.0,0.0,0.0
+HSD17B4,ENSG00000133835,0.757456384,0.752647383,No data,No data,No data,0.112380891,No data,0.523082794,hydroxysteroid 17-beta dehydrogenase 4,True,,,,,,,15.1,not detected,na,MGI:105089,0.0,0.0,0.0,0.0,0.0
+GH1,ENSG00000259384,0.7566911740000001,0.748995985,No data,No data,No data,0.549256675,No data,0.580470405,growth hormone 1,True,,,,,,,0.0,not detected,not detected,MGI:95707,0.0,0.0,1.0,0.0,0.0
+CYP19A1,ENSG00000137869,0.753986053,0.746541875,No data,0.036957985,No data,0.336265669,No data,0.602723867,cytochrome P450 family 19 subfamily A member 1,True,,,,,,,4.4,not detected,not detected,MGI:88587,2.0,0.0,1.0,0.0,0.0
+ARL6,ENSG00000113966,0.753323216,0.752401597,No data,No data,No data,0.115202383,No data,No data,ADP ribosylation factor like GTPase 6,True,,,,,,,6.4,low,low,MGI:1927136,0.0,0.0,0.0,0.0,0.0
+RAB3GAP2,ENSG00000118873,0.7527877340000001,0.751852629,No data,No data,No data,0.116888088,No data,No data,RAB3 GTPase activating non-catalytic protein subunit 2,True,,,,,,,16.2,medium,medium,MGI:1916043,0.0,0.0,0.0,0.0,0.0
+RNF216,ENSG00000011275,0.742208865,0.739275132,No data,No data,No data,0.234698662,No data,No data,ring finger protein 216,True,,,,,,,25.6,low,medium,MGI:1344349,0.0,0.0,0.0,0.0,0.0
+GHRHR,ENSG00000106128,0.742139227,0.73658621,No data,No data,No data,0.141455903,No data,0.595893802,growth hormone releasing hormone receptor,True,,,,,,,0.0,na,na,MGI:95710,0.0,0.0,0.0,0.0,0.0
+MAGEL2,ENSG00000254585,0.741902697,0.735433818,No data,No data,No data,0.31219116,No data,0.59181045,MAGE family member L2,True,,,,,,,7.2,na,na,MGI:1351648,3.0,0.0,1.0,0.0,0.0
+WNT4,ENSG00000162552,0.740765388,0.737073513,No data,No data,No data,0.11508754,No data,0.579983419,Wnt family member 4,True,,,,,,,34.3,na,na,MGI:98957,8.0,0.0,0.0,0.0,0.0
+TWNK,ENSG00000107815,0.73245679,0.727637261,No data,No data,No data,0.385562325,No data,No data,twinkle mtDNA helicase,True,,,,,,,9.8,not detected,not detected,MGI:2137410,0.0,0.0,0.0,0.0,0.0
+LHX3,ENSG00000107187,0.728815937,0.725368229,No data,No data,No data,0.050589225,No data,0.583419811,LIM homeobox 3,True,,,,,,,0.0,na,na,MGI:102673,0.0,0.0,1.0,0.0,0.0
+FSHR,ENSG00000170820,0.728785033,0.664505956,No data,0.511495638,No data,0.158235685,No data,0.602787951,follicle stimulating hormone receptor,True,,,,,,,6.5,na,na,MGI:95583,2.0,0.0,1.0,0.0,0.0
+FSHB,ENSG00000131808,0.728151337,0.711573878,0.332621869,No data,No data,0.031311627,No data,0.566060851,follicle stimulating hormone subunit beta,True,,,,,,,0.0,not detected,not detected,MGI:95582,0.0,0.0,0.0,0.0,0.0
+SMCHD1,ENSG00000101596,0.7235917409999999,0.721206661,No data,No data,No data,0.107328594,No data,No data,structural maintenance of chromosomes flexible hinge domain containing 1,True,,,,,,,20.0,not detected,na,MGI:1921605,0.0,0.0,0.0,0.0,0.0
+TUBB8,ENSG00000261456,0.7167608879999999,0.715121733,No data,No data,No data,0.073761979,No data,No data,tubulin beta 8 class VIII,True,,,,,,,0.0,na,na,,0.0,0.0,0.0,0.0,0.0
+PATL2,ENSG00000229474,0.712936453,0.708164284,No data,No data,No data,0.075240299,No data,0.333619735,PAT1 homolog 2,True,,,,,,,1.3,na,na,MGI:1914828,0.0,0.0,0.0,0.0,0.0
+LHX4,ENSG00000121454,0.710625165,0.710055101,No data,No data,No data,0.045605065,No data,No data,LIM homeobox 4,True,,,,,,,2.2,na,na,MGI:101776,0.0,0.0,0.0,0.0,0.0
+POLR3B,ENSG00000013503,0.710063098,0.710003965,No data,No data,No data,0.007391597,No data,No data,RNA polymerase III subunit B,True,,,,,,,11.3,medium,high,MGI:1917678,0.0,0.0,0.0,0.0,0.0
+SPRY4,ENSG00000187678,0.706131567,0.693266106,No data,No data,No data,0.025767929,No data,0.564451245,sprouty RTK signaling antagonist 4,True,,,,,,,5.7,low,na,MGI:1345144,2.0,0.0,0.0,0.0,0.0
+TBX19,ENSG00000143178,0.6985003909999999,0.691372687,No data,No data,No data,0.10609349,No data,0.502316513,T-box transcription factor 19,True,,,,,,,2.9,not detected,not detected,MGI:1891158,0.0,0.0,0.0,0.0,0.0
+MAP3K1,ENSG00000095015,0.696262101,0.690087718,No data,No data,No data,No data,No data,0.493950662,mitogen-activated protein kinase kinase kinase 1,True,,,,,,,8.4,low,low,MGI:1346872,3.0,0.0,0.0,0.0,0.0
+SOX3,ENSG00000134595,0.6961905009999999,0.691676073,No data,No data,No data,0.020673886,No data,0.549946691,SRY-box transcription factor 3,True,CTB,—,—,M,—,True,4.7,na,na,MGI:98365,0.0,0.0,0.0,0.0,0.0
+IL17RD,ENSG00000144730,0.6951694409999999,0.695169441,No data,No data,No data,No data,No data,No data,interleukin 17 receptor D,True,,,,,,,12.6,medium,na,MGI:2159727,0.0,0.0,0.0,0.0,0.0
+DCAF17,ENSG00000115827,0.6929764620000001,0.692116361,No data,No data,No data,0.107512597,No data,No data,DDB1 and CUL4 associated factor 17,True,,,,,,,14.1,na,na,MGI:1923013,0.0,0.0,0.0,0.0,0.0
+ESR1,ENSG00000091831,0.6886259640000001,0.468719651,No data,0.555615531,No data,0.188509203,No data,0.606336973,estrogen receptor 1,True,F,—,—,CTB,Y,True,14.2,not detected,not detected,MGI:1352467,8.0,0.0,0.0,0.0,0.0
+NSMF,ENSG00000165802,0.6885575159999999,0.687829174,No data,No data,No data,0.058267344,No data,No data,NMDA receptor synaptonuclear signaling and neuronal migration factor,True,,,,,,,5.0,not detected,na,MGI:1861755,0.0,0.0,0.0,0.0,0.0
+INSR,ENSG00000171105,0.680863955,0.679216348,No data,No data,No data,0.074142311,No data,No data,insulin receptor,True,,,,,,,28.3,not detected,medium,MGI:96575,0.0,0.0,0.0,0.0,0.0
+PCSK1,ENSG00000175426,0.680370732,0.674738496,No data,No data,No data,0.146985324,No data,0.601956392,proprotein convertase subtilisin/kexin type 1,True,,,,,,,0.6,not detected,not detected,MGI:97511,0.0,0.0,0.0,0.0,0.0
+TRIM32,ENSG00000119401,0.680050404,0.673155093,No data,No data,No data,0.047926181,No data,0.52095213,tripartite motif containing 32,True,,,,,,,12.6,medium,na,MGI:1917057,0.0,0.0,0.0,0.0,0.0
+POLR3A,ENSG00000148606,0.6752034729999999,0.674851277,No data,No data,No data,0.015848816,No data,No data,RNA polymerase III subunit A,True,,,,,,,11.5,na,na,MGI:2681836,0.0,0.0,0.0,0.0,0.0
+LEPR,ENSG00000116678,0.66962572,0.664096233,No data,No data,No data,0.120470302,No data,0.607525913,leptin receptor,True,,,,,,,18.4,not detected,not detected,MGI:104993,1.0,0.0,0.0,0.0,0.0
+SEMA3A,ENSG00000075213,0.668992342,0.665157897,No data,No data,No data,0.172550067,No data,No data,semaphorin 3A,True,,,,,,,1.4,not detected,na,MGI:107558,0.0,0.0,0.0,0.0,0.0
+DUSP6,ENSG00000139318,0.666428384,0.666264127,No data,No data,No data,0.007391597,No data,No data,dual specificity phosphatase 6,True,,,,,,,7.5,not detected,na,MGI:1914853,0.0,0.0,0.0,0.0,0.0
+FGF17,ENSG00000158815,0.660264677,0.660264677,No data,No data,No data,No data,No data,No data,fibroblast growth factor 17,True,,,,,,,0.5,not detected,not detected,MGI:1202401,1.0,0.0,0.0,0.0,0.0
+SDCCAG8,ENSG00000054282,0.651497691,0.636467843,No data,No data,No data,0.157277009,No data,0.587874833,SHH signaling and ciliogenesis regulator SDCCAG8,True,,,,,,,19.9,high,na,MGI:1924066,0.0,0.0,0.0,0.0,0.0
+CEP290,ENSG00000198707,0.650062106,0.635344217,No data,No data,No data,0.1093731,No data,0.600782633,centrosomal protein 290,True,,,,,,,17.7,not detected,low,MGI:2384917,0.0,0.0,0.0,0.0,0.0
+LZTFL1,ENSG00000163818,0.646838381,0.641437684,No data,No data,No data,0.123011366,No data,0.589662583,leucine zipper transcription factor like 1,True,,,,,,,12.8,not detected,na,MGI:1934860,0.0,0.0,0.0,0.0,0.0
+GDF9,ENSG00000164404,0.645675087,0.633316145,No data,No data,No data,0.013756583,No data,0.5484143,growth differentiation factor 9,True,—,—,CTB,F,Y,True,0.6,low,low,MGI:95692,7.0,0.0,5.0,0.0,0.0
+MKS1,ENSG00000011143,0.6443044689999999,0.630387767,No data,No data,No data,0.045740976,No data,0.600522274,MKS transition zone complex subunit 1,True,,,,,,,20.6,not detected,na,MGI:3584243,0.0,0.0,0.0,0.0,0.0
+TAC3,ENSG00000166863,0.642605671,0.637473919,No data,No data,No data,0.107730474,No data,0.566656183,tachykinin precursor 3,True,,,,,,,0.5,not detected,not detected,MGI:98476,2.0,0.0,0.0,0.0,0.0
+TTC8,ENSG00000165533,0.632626789,0.6178007,No data,No data,No data,0.136331602,No data,0.590487471,tetratricopeptide repeat domain 8,True,,,,,,,49.9,na,na,MGI:1923510,0.0,0.0,0.0,0.0,0.0
+GHR,ENSG00000112964,0.630742906,No data,No data,0.596352045,No data,0.19917673,No data,0.599294238,growth hormone receptor,True,,,,,,,5.0,not detected,not detected,MGI:95708,3.0,0.0,0.0,0.0,0.0
+PHIP,ENSG00000146247,0.62969554,0.618532951,No data,No data,No data,No data,No data,0.502316513,pleckstrin homology domain interacting protein,True,,,,,,,19.8,low,na,MGI:1932404,0.0,0.0,0.0,0.0,0.0
+WDPCP,ENSG00000143951,0.627632024,0.613421108,No data,No data,No data,0.077971083,No data,0.595632457,WD repeat containing planar cell polarity effector,True,,,,,,,9.5,not detected,low,MGI:2144467,0.0,0.0,0.0,0.0,0.0
+MCM9,ENSG00000111877,0.627219823,0.620953699,No data,No data,No data,No data,No data,0.501289902,minichromosome maintenance 9 homologous recombination repair factor,True,,,,,,,8.7,not detected,na,MGI:1918817,0.0,0.0,0.0,0.0,0.0
+LEP,ENSG00000174697,0.6233221870000001,0.614048042,No data,No data,No data,0.211657621,No data,0.606470726,leptin,True,,,,,,,0.1,not detected,na,MGI:104663,1.0,0.0,0.0,0.0,0.0
+GATA4,ENSG00000136574,0.621638436,0.615145136,No data,No data,No data,0.040089148,No data,0.493806947,GATA binding protein 4,True,,,,,,,63.4,high,not detected,MGI:95664,5.0,0.0,2.0,0.0,0.0
+OTX2,ENSG00000165588,0.6112691060000001,0.604025094,No data,No data,No data,0.061254573,No data,0.540318027,orthodenticle homeobox 2,True,,,,,,,0.5,not detected,na,MGI:97451,0.0,0.0,0.0,0.0,0.0
+SSTR5,ENSG00000162009,0.609951006,No data,No data,0.602586725,No data,0.147285626,No data,No data,somatostatin receptor 5,True,,,,,,,0.0,na,na,MGI:894282,0.0,0.0,0.0,0.0,0.0
+FLRT3,ENSG00000125848,0.609293455,0.609293455,No data,No data,No data,No data,No data,No data,fibronectin leucine rich transmembrane protein 3,True,,,,,,,11.9,not detected,medium,MGI:1918686,0.0,0.0,0.0,0.0,0.0
+POC1A,ENSG00000164087,0.6084242529999999,0.59543421,No data,No data,No data,0.018478993,No data,0.574157489,POC1 centriolar protein A,True,,,,,,,1.1,not detected,na,MGI:1917485,0.0,0.0,0.0,0.0,0.0
+NR3C1,ENSG00000113580,0.607144914,No data,No data,0.576040237,No data,0.098979645,No data,0.578102586,nuclear receptor subfamily 3 group C member 1,True,,,,,,,15.5,high,high,MGI:95824,1.0,0.0,0.0,0.0,0.0
+C8orf37,ENSG00000156172,0.606755609,0.599869169,No data,No data,No data,0.089007148,No data,0.493950662,chromosome 8 open reading frame 37,True,,,,,,,13.0,not detected,medium,,0.0,0.0,0.0,0.0,0.0
+SSTR2,ENSG00000180616,0.606524163,No data,No data,0.602586725,No data,0.078748766,No data,No data,somatostatin receptor 2,True,,,,,,,1.5,not detected,medium,MGI:98328,0.0,0.0,2.0,0.0,0.0
+LHB,ENSG00000104826,0.604913761,0.591218858,No data,No data,No data,0.038805885,No data,0.594442331,luteinizing hormone subunit beta,True,,,,,,,0.1,not detected,not detected,MGI:96782,0.0,0.0,1.0,0.0,0.0
+SSTR1,ENSG00000139874,0.603469692,No data,No data,0.600784746,No data,0.053698926,No data,No data,somatostatin receptor 1,True,,,,,,,0.6,not detected,low,MGI:98327,1.0,0.0,3.0,0.0,0.0
+ZP1,ENSG00000149506,0.60346382,0.593801899,No data,No data,No data,0.143912342,No data,0.353835753,zona pellucida glycoprotein 1,True,,,,,,,0.0,na,na,MGI:103073,6.0,0.0,0.0,0.0,0.0
+HS6ST1,ENSG00000136720,0.603420095,0.603112112,No data,No data,No data,0.013859245,No data,No data,heparan sulfate 6-O-sulfotransferase 1,True,,,,,,,16.2,na,na,MGI:1354958,0.0,0.0,0.0,0.0,0.0
+SSTR3,ENSG00000278195,0.601472575,No data,No data,0.600784746,No data,0.013756583,No data,No data,somatostatin receptor 3,True,,,,,,,5.8,not detected,na,MGI:98329,1.0,0.0,0.0,0.0,0.0
+SSTR4,ENSG00000132671,0.600383589,No data,No data,0.599829219,No data,0.011087396,No data,No data,somatostatin receptor 4,True,,,,,,,0.0,na,na,MGI:105372,1.0,0.0,2.0,0.0,0.0
+OPRM1,ENSG00000112038,0.5985996060000001,No data,No data,0.572035494,No data,No data,No data,0.531282238,opioid receptor mu 1,True,,,,,,,0.8,not detected,not detected,MGI:97441,0.0,0.0,0.0,0.0,0.0
+XRCC4,ENSG00000152422,0.595762726,0.59543421,No data,No data,No data,0.014783194,No data,No data,X-ray repair cross complementing 4,True,,,,,,,5.8,not detected,na,MGI:1333799,0.0,0.0,0.0,0.0,0.0
+DRD2,ENSG00000149295,0.595643921,No data,No data,0.562772015,No data,0.166365781,No data,0.583497778,dopamine receptor D2,True,,,,,,,0.3,not detected,not detected,MGI:94924,0.0,0.0,3.0,0.0,0.0
+NDNF,ENSG00000173376,0.586679788,0.586194714,No data,No data,No data,0.038805885,No data,No data,neuron derived neurotrophic factor,True,,,,,,,21.3,na,na,MGI:1915419,0.0,0.0,0.0,0.0,0.0
+BBIP1,ENSG00000214413,0.584964267,0.570649775,No data,No data,No data,0.090547064,No data,0.593219417,BBSome interacting protein 1,True,,,,,,,14.9,not detected,not detected,MGI:1913610,0.0,0.0,0.0,0.0,0.0
+LHCGR,ENSG00000138039,0.584637437,No data,No data,0.554404536,No data,0.011087396,No data,0.5997303,luteinizing hormone/choriogonadotropin receptor,True,,,,,,,5.0,na,na,MGI:96783,0.0,0.0,0.0,0.0,0.0
+IFT27,ENSG00000100360,0.574382909,0.561299404,No data,No data,No data,0.282964133,No data,0.429590384,intraflagellar transport 27,True,,,,,,,14.9,not detected,not detected,MGI:1914292,0.0,0.0,0.0,0.0,0.0
+AP002748.5,ENSG00000256349,0.573348017,0.573348017,No data,No data,No data,No data,No data,No data,novel protein,True,,,,,,,0.3,na,na,,0.0,0.0,0.0,0.0,0.0
+AL162231.3,ENSG00000258728,0.573168975,0.573168975,No data,No data,No data,No data,No data,No data,novel protein (GALT-IL11RA readthrough),True,,,,,,,3.5,na,na,,0.0,0.0,0.0,0.0,0.0
+GNRH1,ENSG00000147437,0.565776626,0.557054878,No data,No data,No data,0.157305545,No data,0.597064347,gonadotropin releasing hormone 1,True,,,,,,,4.3,not detected,not detected,MGI:95789,0.0,0.0,0.0,0.0,0.0
+HBA2,ENSG00000206172,0.564138412,No data,No data,0.545962824,No data,0.06825495,No data,0.333176239,hemoglobin subunit alpha 2,True,,,,,,,4.9,not detected,not detected,MGI:96015,0.0,0.0,0.0,0.0,0.0
+HBA1,ENSG00000188536,0.563483989,No data,No data,0.545962824,No data,0.038805885,No data,0.333176239,hemoglobin subunit alpha 1,True,,,,,,,4.1,not detected,not detected,,0.0,0.0,0.0,0.0,0.0
+RBM28,ENSG00000106344,0.5568918820000001,0.555396393,No data,No data,No data,0.119639159,No data,No data,RNA binding motif protein 28,True,,,,,,,19.7,low,medium,MGI:2655711,0.0,0.0,0.0,0.0,0.0
+PSMC3IP,ENSG00000131470,0.556438869,0.549236728,No data,No data,No data,0.056874233,No data,0.539771696,PSMC3 interacting protein,True,,,,,,,4.8,not detected,not detected,MGI:1098610,0.0,0.0,0.0,0.0,0.0
+TMEM67,ENSG00000164953,0.555289083,0.54181647,No data,No data,No data,0.049082195,No data,0.578658835,transmembrane protein 67,True,,,,,,,8.6,na,na,MGI:1923928,0.0,0.0,0.0,0.0,0.0
+RRM2,ENSG00000171848,0.554383272,No data,No data,0.554383272,No data,No data,No data,No data,ribonucleotide reductase regulatory subunit M2,True,,,,,,,0.9,not detected,not detected,MGI:98181,0.0,0.0,0.0,0.0,0.0
+MRPS22,ENSG00000175110,0.552809334,0.552521883,No data,No data,No data,0.012935295,No data,No data,mitochondrial ribosomal protein S22,True,,,,,,,15.7,medium,low,MGI:1928137,0.0,0.0,0.0,0.0,0.0
+ZFPM2,ENSG00000169946,0.549236728,0.549236728,No data,No data,No data,No data,No data,No data,"zinc finger protein, FOG family member 2",True,,,,,,,37.8,medium,na,MGI:1334444,0.0,0.0,0.0,0.0,0.0
+AC093899.2,ENSG00000251569,0.546103753,0.546103753,No data,No data,No data,No data,No data,No data,novel protein,True,,,,,,,4.0,na,na,,0.0,0.0,0.0,0.0,0.0
+DRD3,ENSG00000151577,0.543605153,No data,No data,0.526137988,No data,0.036957985,No data,0.332917533,dopamine receptor D3,True,,,,,,,0.0,na,na,MGI:94925,1.0,0.0,1.0,0.0,0.0
+DTD1,ENSG00000125821,0.543357811,0.543357811,No data,No data,No data,No data,No data,No data,D-aminoacyl-tRNA deacylase 1,True,,,,,,,19.1,not detected,na,MGI:1913294,0.0,0.0,0.0,0.0,0.0
+AR,ENSG00000169083,0.532503665,No data,No data,0.499322916,No data,0.13364251,No data,0.604218306,androgen receptor,True,,,,,,,14.4,not detected,na,MGI:88064,0.0,0.0,0.0,0.0,0.0
+ESR2,ENSG00000140009,0.53100275,0.332621869,No data,0.434256329,No data,0.054119261,No data,0.581150817,estrogen receptor 2,True,CTB,—,—,CTB,Y,True,19.1,low,not detected,MGI:109392,0.0,0.0,0.0,0.0,0.0
+PGR,ENSG00000082175,0.527073696,No data,No data,0.496705059,No data,0.058187834,No data,0.581511494,progesterone receptor,True,F,—,—,F,Y,True,10.6,not detected,na,MGI:97567,0.0,0.0,0.0,0.0,0.0
+AKR1C2,ENSG00000151632,0.526877147,0.526137988,No data,No data,No data,0.014783194,No data,No data,aldo-keto reductase family 1 member C2,True,,,,,,,1.9,not detected,na,MGI:1351661,0.0,0.0,0.0,0.0,0.0
+AKR1C2,ENSG00000151632,0.526877147,0.526137988,No data,No data,No data,0.014783194,No data,No data,aldo-keto reductase family 1 member C2,True,,,,,,,1.9,not detected,na,MGI:1351662,0.0,0.0,0.0,0.0,0.0
+AKR1C2,ENSG00000151632,0.526877147,0.526137988,No data,No data,No data,0.014783194,No data,No data,aldo-keto reductase family 1 member C2,True,,,,,,,1.9,not detected,na,MGI:1918111,0.0,0.0,0.0,0.0,0.0
+AKR1C2,ENSG00000151632,0.526877147,0.526137988,No data,No data,No data,0.014783194,No data,No data,aldo-keto reductase family 1 member C2,True,,,,,,,1.9,not detected,na,MGI:1924587,0.0,0.0,0.0,0.0,0.0
+AKR1C2,ENSG00000151632,0.526877147,0.526137988,No data,No data,No data,0.014783194,No data,No data,aldo-keto reductase family 1 member C2,True,,,,,,,1.9,not detected,na,MGI:1933427,0.0,0.0,0.0,0.0,0.0
+AKR1C2,ENSG00000151632,0.526877147,0.526137988,No data,No data,No data,0.014783194,No data,No data,aldo-keto reductase family 1 member C2,True,,,,,,,1.9,not detected,na,MGI:2145420,0.0,0.0,0.0,0.0,0.0
+AKR1C2,ENSG00000151632,0.526877147,0.526137988,No data,No data,No data,0.014783194,No data,No data,aldo-keto reductase family 1 member C2,True,,,,,,,1.9,not detected,na,MGI:2145458,0.0,0.0,0.0,0.0,0.0
+AKR1C2,ENSG00000151632,0.526877147,0.526137988,No data,No data,No data,0.014783194,No data,No data,aldo-keto reductase family 1 member C2,True,,,,,,,1.9,not detected,na,MGI:2151104,0.0,0.0,0.0,0.0,0.0
+AKR1C2,ENSG00000151632,0.526877147,0.526137988,No data,No data,No data,0.014783194,No data,No data,aldo-keto reductase family 1 member C2,True,,,,,,,1.9,not detected,na,MGI:2653678,0.0,0.0,0.0,0.0,0.0
+DRD4,ENSG00000069696,0.526137988,No data,No data,0.526137988,No data,No data,No data,No data,dopamine receptor D4,True,,,,,,,3.4,na,na,MGI:94926,2.0,0.0,0.0,0.0,0.0
+NF1,ENSG00000196712,0.524583841,0.497647487,No data,No data,No data,0.538727069,No data,No data,neurofibromin 1,True,,,,,,,22.9,low,na,MGI:97306,1.0,0.0,0.0,0.0,0.0
+ZP3,ENSG00000188372,0.521469678,0.5081723,No data,No data,No data,0.133293081,No data,0.523404637,zona pellucida glycoprotein 3,True,,,,,,,5.8,not detected,high,MGI:99215,7.0,0.0,0.0,0.0,0.0
+SELP,ENSG00000174175,0.518691835,No data,No data,0.513984855,No data,0.094139613,No data,No data,selectin P,True,,,,,,,5.0,not detected,not detected,MGI:98280,0.0,0.0,0.0,0.0,0.0
+TRIP13,ENSG00000071539,0.517588586,0.486829064,No data,No data,No data,0.048045381,No data,0.593836947,thyroid hormone receptor interactor 13,True,,,,,,,2.1,not detected,not detected,MGI:1916966,0.0,0.0,0.0,0.0,0.0
+SOHLH1,ENSG00000165643,0.515563897,0.515563897,No data,No data,No data,No data,No data,No data,spermatogenesis and oogenesis specific basic helix-loop-helix 1,True,,,,,,,0.3,na,na,MGI:2684956,2.0,0.0,0.0,0.0,0.0
+LEPROT,ENSG00000213625,0.515530249,0.505337556,No data,No data,No data,No data,No data,0.458671185,leptin receptor overlapping transcript,True,,,,,,,28.7,na,na,MGI:2687005,0.0,0.0,0.0,0.0,0.0
+AC127029.3,ENSG00000285947,0.511169882,0.511169882,No data,No data,No data,No data,No data,No data,novel protein,True,,,,,,,,na,na,,0.0,0.0,0.0,0.0,0.0
+FEZF1,ENSG00000128610,0.5092240060000001,0.5081723,No data,No data,No data,0.047326754,No data,No data,FEZ family zinc finger 1,True,,,,,,,0.3,not detected,not detected,MGI:1920441,0.0,0.0,0.0,0.0,0.0
+RNPC3,ENSG00000185946,0.508729818,0.5081723,No data,No data,No data,0.025088312,No data,No data,"RNA binding region (RNP1, RRM) containing 3",True,,,,,,,27.2,na,na,MGI:1914475,0.0,0.0,0.0,0.0,0.0
+SEMA3E,ENSG00000170381,0.5029276420000001,0.499642622,No data,No data,No data,0.147825882,No data,No data,semaphorin 3E,True,,,,,,,0.9,na,na,MGI:1340034,0.0,0.0,0.0,0.0,0.0
+GRIN2A,ENSG00000183454,0.502781965,No data,No data,0.501858016,No data,0.018478993,No data,No data,glutamate ionotropic receptor NMDA type subunit 2A,True,,,,,,,0.5,not detected,not detected,MGI:95820,0.0,0.0,2.0,0.0,0.0
+WEE2,ENSG00000214102,0.4996232,0.49606856,No data,No data,No data,0.071092791,No data,No data,WEE2 oocyte meiosis inhibiting kinase,True,,,,,,,1.2,na,na,MGI:3027899,2.0,0.0,1.0,0.0,0.0
+NUP107,ENSG00000111581,0.498932804,0.498932804,No data,No data,No data,No data,No data,No data,nucleoporin 107,True,,,,,,,19.8,na,na,MGI:2143854,0.0,0.0,0.0,0.0,0.0
+PTGS2,ENSG00000073756,0.497407687,No data,No data,0.466081261,No data,0.063074868,No data,0.598495244,prostaglandin-endoperoxide synthase 2,True,,,,,,,1.6,not detected,not detected,MGI:97798,0.0,0.0,0.0,0.0,0.0
+CCDC28B,ENSG00000160050,0.491162023,0.489693307,No data,No data,No data,0.066092219,No data,No data,coiled-coil domain containing 28B,True,,,,,,,3.4,not detected,na,MGI:1913514,0.0,0.0,0.0,0.0,0.0
+ERAL1,ENSG00000132591,0.481698291,0.480681947,No data,No data,No data,0.081307568,No data,No data,Era like 12S mitochondrial rRNA chaperone 1,True,,,,,,,22.0,medium,medium,MGI:1889295,0.0,0.0,0.0,0.0,0.0
+GRIN1,ENSG00000176884,0.478865852,No data,No data,0.452098823,No data,0.018478993,No data,0.527127692,glutamate ionotropic receptor NMDA type subunit 1,True,,,,,,,1.7,not detected,low,MGI:95819,0.0,0.0,1.0,0.0,0.0
+ZP2,ENSG00000103310,0.47718174,0.452735322,No data,No data,No data,0.069501545,No data,0.458038793,zona pellucida glycoprotein 2,True,,,,,,,0.1,not detected,high,MGI:99214,15.0,0.0,1.0,0.0,0.0
+IFT172,ENSG00000138002,0.4769121670000001,0.445343725,No data,No data,No data,0.108632802,No data,0.583087598,intraflagellar transport 172,True,,,,,,,16.1,na,na,MGI:2682064,0.0,0.0,0.0,0.0,0.0
+BTG4,ENSG00000137707,0.476388433,0.473524189,No data,No data,No data,0.057284877,No data,No data,BTG anti-proliferation factor 4,True,,,,,,,0.0,na,na,MGI:1860140,0.0,0.0,0.0,0.0,0.0
+PANX1,ENSG00000110218,0.474078559,0.473524189,No data,No data,No data,0.011087396,No data,No data,pannexin 1,True,,,,,,,9.0,not detected,high,MGI:1860055,0.0,0.0,0.0,0.0,0.0
+IL11RA,ENSG00000137070,0.4704956870000001,0.447396946,No data,No data,No data,No data,No data,0.461974818,interleukin 11 receptor subunit alpha,True,,,,,,,11.5,low,na,MGI:107426,0.0,0.0,0.0,0.0,0.0
+SRY,ENSG00000184895,0.4696974820000001,0.454583221,No data,No data,No data,0.152928577,No data,0.594119392,sex determining region Y,True,,,,,,,0.1,na,na,MGI:98660,0.0,0.0,1.0,0.0,0.0
+GRIN2D,ENSG00000105464,0.469265808,No data,No data,0.452098823,No data,No data,No data,0.343339685,glutamate ionotropic receptor NMDA type subunit 2D,True,,,,,,,0.0,not detected,not detected,MGI:95823,0.0,0.0,0.0,0.0,0.0
+PTGS1,ENSG00000095303,0.467101456,No data,No data,0.466081261,No data,0.020403888,No data,No data,prostaglandin-endoperoxide synthase 1,True,,,,,,,3.6,not detected,not detected,MGI:97797,0.0,0.0,0.0,0.0,0.0
+KISS1,ENSG00000170498,0.466595099,0.453197297,No data,No data,No data,0.041729464,No data,0.579428277,KiSS-1 metastasis suppressor,True,,,,,,,0.2,not detected,not detected,MGI:2663985,0.0,0.0,0.0,0.0,0.0
+BTK,ENSG00000010671,0.463145155,0.462898768,No data,No data,No data,0.011087396,No data,No data,Bruton tyrosine kinase,True,,,,,,,1.2,not detected,not detected,MGI:88216,0.0,0.0,0.0,0.0,0.0
+ERCC4,ENSG00000175595,0.461974818,0.461974818,No data,No data,No data,No data,No data,No data,"ERCC excision repair 4, endonuclease catalytic subunit",True,,,,,,,9.9,not detected,na,MGI:1354163,0.0,0.0,0.0,0.0,0.0
+GRIN3A,ENSG00000198785,0.454870672,No data,No data,0.452098823,No data,0.055436978,No data,No data,glutamate ionotropic receptor NMDA type subunit 3A,True,,,,,,,2.4,na,na,MGI:1933206,0.0,0.0,0.0,0.0,0.0
+IFT74,ENSG00000096872,0.454008319,0.452735322,No data,No data,No data,0.057284877,No data,No data,intraflagellar transport 74,True,,,,,,,14.0,not detected,low,MGI:1914944,0.0,0.0,0.0,0.0,0.0
+DMXL2,ENSG00000104093,0.453225814,0.452735322,No data,No data,No data,0.02207213,No data,No data,Dmx like 2,True,,,,,,,7.0,not detected,na,MGI:2444630,0.0,0.0,0.0,0.0,0.0
+GRIN2B,ENSG00000273079,0.452098823,No data,No data,0.452098823,No data,No data,No data,No data,glutamate ionotropic receptor NMDA type subunit 2B,True,,,,,,,0.9,not detected,not detected,MGI:95821,1.0,0.0,0.0,0.0,0.0
+GRIN2C,ENSG00000161509,0.452098823,No data,No data,0.452098823,No data,No data,No data,No data,glutamate ionotropic receptor NMDA type subunit 2C,True,,,,,,,0.4,na,na,MGI:95822,1.0,0.0,0.0,0.0,0.0
+GRIN3B,ENSG00000116032,0.452098823,No data,No data,0.452098823,No data,No data,No data,No data,glutamate ionotropic receptor NMDA type subunit 3B,True,,,,,,,0.2,na,na,MGI:2150393,0.0,0.0,0.0,0.0,0.0
+BCL11A,ENSG00000119866,0.449943597,0.440527234,No data,No data,No data,0.188327265,No data,No data,BAF chromatin remodeling complex subunit BCL11A,True,,,,,,,1.6,not detected,na,MGI:106190,0.0,0.0,0.0,0.0,0.0
+HERC2,ENSG00000128731,0.425642033,0.398127845,No data,No data,No data,0.022482774,No data,0.540291418,HECT and RLD domain containing E3 ubiquitin protein ligase 2,True,,,,,,,8.5,not detected,na,MGI:103234,0.0,0.0,0.0,0.0,0.0
+RPE65,ENSG00000116745,0.417367665,0.390112069,No data,No data,No data,No data,No data,0.54511192,retinoid isomerohydrolase RPE65,True,,,,,,,0.1,na,na,MGI:98001,0.0,0.0,0.0,0.0,0.0
+SIGMAR1,ENSG00000147955,0.415777337,0.184789927,No data,0.369579855,No data,No data,No data,No data,sigma non-opioid intracellular receptor 1,True,,,,,,,20.1,low,medium,MGI:1195268,0.0,0.0,0.0,0.0,0.0
+ZNF596,ENSG00000172748,0.415777337,0.415777337,No data,No data,No data,No data,No data,No data,zinc finger protein 596,True,,,,,,,7.8,na,na,,0.0,0.0,0.0,0.0,0.0
+PRLR,ENSG00000113494,0.406567439,0.369579855,No data,No data,No data,0.481605839,No data,0.525704655,prolactin receptor,True,,,,,,,3.2,na,na,MGI:97763,8.0,0.0,1.0,0.0,0.0
+AIP,ENSG00000110711,0.402293911,0.369579855,No data,No data,No data,0.381068147,No data,0.484917514,aryl hydrocarbon receptor interacting protein,True,,,,,,,45.5,medium,high,MGI:109622,0.0,0.0,0.0,0.0,0.0
+SNRPN,ENSG00000128739,0.4011697520000001,0.369579855,No data,No data,No data,0.226160359,No data,0.531282238,small nuclear ribonucleoprotein polypeptide N,True,,,,,,,28.4,not detected,na,MGI:98347,0.0,0.0,0.0,0.0,0.0
+AIRE,ENSG00000160224,0.398897874,0.369579855,No data,No data,No data,0.007391597,No data,0.583075228,autoimmune regulator,True,,,,,,,0.3,na,na,MGI:1338803,0.0,0.0,0.0,0.0,0.0
+ADRB1,ENSG00000043591,0.398646841,0.000260934,No data,0.398581607,No data,No data,No data,No data,adrenoceptor beta 1,True,,,,,,,0.8,not detected,not detected,MGI:87937,1.0,0.0,0.0,0.0,0.0
+GUCY2C,ENSG00000070019,0.398369203,0.369579855,No data,No data,No data,No data,No data,0.575786958,guanylate cyclase 2C,True,,,,,,,0.2,na,na,MGI:106903,0.0,0.0,0.0,0.0,0.0
+PDE5A,ENSG00000138735,0.396940433,No data,No data,0.394475164,No data,0.049305369,No data,No data,phosphodiesterase 5A,True,,,,,,,10.0,medium,na,MGI:2651499,0.0,0.0,0.0,0.0,0.0
+MC2R,ENSG00000185231,0.39469568,0.369579855,No data,No data,No data,No data,No data,0.502316513,melanocortin 2 receptor,True,,,,,,,0.0,not detected,not detected,MGI:96928,0.0,0.0,0.0,0.0,0.0
+OPRK1,ENSG00000082556,0.39216529,No data,No data,0.39216529,No data,No data,No data,No data,opioid receptor kappa 1,True,,,,,,,0.4,not detected,not detected,MGI:97439,0.0,0.0,1.0,0.0,0.0
+KLB,ENSG00000134962,0.386758725,0.369579855,No data,No data,No data,0.02207213,No data,0.333767567,klotho beta,True,,,,,,,0.2,not detected,medium,MGI:1932466,0.0,0.0,0.0,0.0,0.0
+OPRD1,ENSG00000116329,0.378819351,No data,No data,0.378819351,No data,No data,No data,No data,opioid receptor delta 1,True,,,,,,,0.5,not detected,not detected,MGI:97438,1.0,0.0,1.0,0.0,0.0
+LARP7,ENSG00000174720,0.370642397,0.369579855,No data,No data,No data,0.021250842,No data,No data,"La ribonucleoprotein 7, transcriptional regulator",True,,,,,,,26.3,low,na,MGI:107634,0.0,0.0,0.0,0.0,0.0
+TRPV1,ENSG00000196689,0.370319014,No data,No data,0.369579855,No data,0.014783194,No data,No data,transient receptor potential cation channel subfamily V member 1,True,,,,,,,5.1,na,na,MGI:1341787,0.0,0.0,0.0,0.0,0.0
+DMRT1,ENSG00000137090,0.369949435,0.369579855,No data,No data,No data,0.007391597,No data,No data,doublesex and mab-3 related transcription factor 1,True,—,CTB,—,M,Y,True,0.0,not detected,na,MGI:1354733,4.0,0.0,0.0,0.0,0.0
+SOX10,ENSG00000100146,0.369911204,0.340013466,No data,No data,No data,0.133397108,No data,0.538667145,SRY-box transcription factor 10,True,,,,,,,2.4,not detected,not detected,MGI:98358,0.0,0.0,0.0,0.0,0.0
+GMNN,ENSG00000112312,0.369579855,0.369579855,No data,No data,No data,No data,No data,No data,geminin DNA replication inhibitor,True,—,F,—,,Y,True,7.2,not detected,na,MGI:1927344,0.0,0.0,0.0,0.0,0.0
+NNT,ENSG00000112992,0.369579855,0.369579855,No data,No data,No data,No data,No data,No data,nicotinamide nucleotide transhydrogenase,True,,,,,,,5.8,not detected,na,MGI:109279,0.0,0.0,0.0,0.0,0.0
+FAAH,ENSG00000117480,0.369579855,No data,No data,0.369579855,No data,No data,No data,No data,fatty acid amide hydrolase,True,,,,,,,2.7,not detected,na,MGI:109609,0.0,0.0,0.0,0.0,0.0
+MRAP,ENSG00000170262,0.369579855,0.369579855,No data,No data,No data,No data,No data,No data,melanocortin 2 receptor accessory protein,True,,,,,,,0.8,not detected,na,MGI:1924287,0.0,0.0,0.0,0.0,0.0
+P2RY12,ENSG00000169313,0.365343908,No data,No data,0.364974328,No data,0.007391597,No data,No data,purinergic receptor P2Y12,True,,,,,,,2.2,not detected,not detected,MGI:1918089,0.0,0.0,0.0,0.0,0.0
+CEP19,ENSG00000174007,0.363389161,0.332621869,No data,No data,No data,0.036957985,No data,0.598920055,centrosomal protein 19,True,,,,,,,3.8,not detected,not detected,MGI:1914244,0.0,0.0,0.0,0.0,0.0
+RAB3GAP1,ENSG00000115839,0.336645395,0.332621869,No data,No data,No data,0.08047051,No data,No data,RAB3 GTPase activating protein catalytic subunit 1,True,,,,,,,31.3,not detected,high,MGI:2445001,0.0,0.0,0.0,0.0,0.0
+TNFRSF1A,ENSG00000067182,0.334469768,0.332621869,No data,No data,No data,0.036957985,No data,No data,TNF receptor superfamily member 1A,True,,,,,,,59.5,not detected,low,MGI:1314884,0.0,0.0,0.0,0.0,0.0
+KCNN4,ENSG00000104783,0.334093839,No data,No data,0.331595259,No data,0.049971606,No data,No data,potassium calcium-activated channel subfamily N member 4,True,,,,,,,1.3,not detected,not detected,MGI:1277957,0.0,0.0,0.0,0.0,0.0
+VDR,ENSG00000111424,0.321247212,No data,No data,0.281291334,No data,0.466557694,No data,0.591758588,vitamin D receptor,True,,,,,,,1.3,na,na,MGI:103076,0.0,0.0,0.0,0.0,0.0
+PIK3CA,ENSG00000121879,0.311362271,No data,0.277184891,No data,No data,0.327566662,No data,0.537962418,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha",True,,,,,,,15.4,low,na,MGI:1206581,0.0,0.0,0.0,0.0,0.0
+CCDC170,ENSG00000120262,0.310149171,0.0001635,0.310108296,No data,No data,No data,No data,No data,coiled-coil domain containing 170,True,F,—,—,—,—,True,14.4,not detected,not detected,MGI:2685067,0.0,0.0,0.0,0.0,0.0
+SCN9A,ENSG00000169432,0.306983595,No data,No data,0.277184891,No data,No data,No data,0.595974087,sodium voltage-gated channel alpha subunit 9,True,,,,,,,2.1,not detected,medium,MGI:107636,0.0,0.0,1.0,0.0,0.0
+KIF7,ENSG00000166813,0.304975065,0.275593644,No data,No data,No data,0.009239496,No data,0.583521963,kinesin family member 7,True,,,,,,,10.9,low,na,MGI:1098239,0.0,0.0,0.0,0.0,0.0
+RRM1,ENSG00000167325,0.301552147,No data,No data,0.301182567,No data,0.007391597,No data,No data,ribonucleotide reductase catalytic subunit M1,True,,,,,,,13.6,not detected,low,MGI:98180,0.0,0.0,0.0,0.0,0.0
+SCN8A,ENSG00000196876,0.301517977,No data,No data,0.277184891,No data,No data,No data,0.486661726,sodium voltage-gated channel alpha subunit 8,True,,,,,,,1.8,na,na,MGI:103169,0.0,0.0,0.0,0.0,0.0
+POLD2,ENSG00000106628,0.301182567,No data,No data,0.301182567,No data,No data,No data,No data,"DNA polymerase delta 2, accessory subunit",True,,,,,,,24.4,not detected,high,MGI:1097163,0.0,0.0,0.0,0.0,0.0
+POLD3,ENSG00000077514,0.301182567,No data,No data,0.301182567,No data,No data,No data,No data,"DNA polymerase delta 3, accessory subunit",True,,,,,,,15.9,medium,na,MGI:1915217,0.0,0.0,0.0,0.0,0.0
+POLE3,ENSG00000148229,0.301182567,No data,No data,0.301182567,No data,No data,No data,No data,"DNA polymerase epsilon 3, accessory subunit",True,,,,,,,15.4,not detected,na,MGI:1933378,0.0,0.0,0.0,0.0,0.0
+POLD4,ENSG00000175482,0.301182567,No data,No data,0.301182567,No data,No data,No data,No data,"DNA polymerase delta 4, accessory subunit",True,,,,,,,13.0,na,na,MGI:1916995,0.0,0.0,0.0,0.0,0.0
+POLA1,ENSG00000101868,0.301182567,No data,No data,0.301182567,No data,No data,No data,No data,"DNA polymerase alpha 1, catalytic subunit",True,,,,,,,12.9,low,low,MGI:99660,0.0,0.0,0.0,0.0,0.0
+POLA2,ENSG00000014138,0.301182567,No data,No data,0.301182567,No data,No data,No data,No data,"DNA polymerase alpha 2, accessory subunit",True,,,,,,,10.3,low,na,MGI:99690,0.0,0.0,0.0,0.0,0.0
+PRIM1,ENSG00000198056,0.301182567,No data,No data,0.301182567,No data,No data,No data,No data,DNA primase subunit 1,True,,,,,,,9.7,low,na,MGI:97757,0.0,0.0,0.0,0.0,0.0
+POLE,ENSG00000177084,0.301182567,No data,No data,0.301182567,No data,No data,No data,No data,"DNA polymerase epsilon, catalytic subunit",True,,,,,,,8.7,na,na,MGI:1196391,0.0,0.0,0.0,0.0,0.0
