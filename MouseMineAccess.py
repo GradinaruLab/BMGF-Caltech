@@ -58,7 +58,7 @@ def makeTargetStr(csv_df, col_name):
     
     for symbol in csv_df[col_name]:
         if symStr == "":
-            symStr = symbol
+            symStr = str(symbol)
         else:
             symStr = symStr + ", " + str(symbol)
         
@@ -425,6 +425,12 @@ def test_run():
 #command for 9/20/21 run:
 #MGI_exp_wrapper("Top_200_OT_with_MGI_ID_2021-09-16.csv", cc.MGI, 
 #                "Top_200_OT_with_Mouse_homolog_expression_2021-09-20.csv")
+
+
+#command for 9/20/21 run on next 200
+#MGI_ID_wrapper("Top_201-400_OT.csv", "Top_201-400_OT_with_MGI_ID_2021-09-20.csv")
+#MGI_exp_wrapper("Top_201-400_OT_with_MGI_ID_2021-09-20.csv", cc.MGI, 
+#                "Top_201-400_OT_with_Mouse_homologue_expression_2021-09-20.csv")
     
 # =============================================================================
 # {'GXDExpression.age': 'postnatal adult', 
