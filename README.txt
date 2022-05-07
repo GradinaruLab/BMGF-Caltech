@@ -68,7 +68,9 @@ functions in "proteinAtlasAccess.py".
 
 --- Mouse Genome Informatics ---
 
-Again start from a csv with a column of gene symbols. 
+Again start from a csv with a column of gene symbols. The functions
+in "MouseMineAccess.py" use MouseMine for programmatic access to 
+Jax's Mouse Genome Informatics database. 
 
 Run the function 
     MGI_ID_wrapper(in_csv, out_csv)
